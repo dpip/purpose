@@ -1,0 +1,264 @@
+$menu-font-color: rgb(126, 109, 133);
+$menu-font: 'Roboto', sans-serif;
+
+$home-intro-font: 'Slabo 27px', serif;
+
+$arrow-foot: rgb(48, 47, 51);
+$green-arrow: rgb(1, 168, 132);
+
+$note-blue: rgb(0, 80, 141);
+
+
+
+.Noteables-Container {
+  width: 100%;
+  height: 300px;
+}
+.note-buffer {
+  width: 100%;
+  height: 150px;
+}
+#green-buffer {
+  background-color: $green-arrow;
+}
+#blue-buffer {
+  background-color: $note-blue;
+}
+
+
+
+#note-intro {
+  background-color: $note-blue;
+  color: white;
+  #note-intro-text-1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+
+  }
+  #note-intro-text-2 {
+    width: 35%;
+    margin-top: 1em;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+    text-align: center;
+    font-size: 25px;
+  }
+}
+#note-hero-phone {
+  height: 700px;
+  width: 400px;
+  position: absolute;
+  right: 150px;
+  margin-top: -180px;
+    img {
+      height: inherit;
+      width: inherit;
+    }
+}
+#note-hero-view {
+  position: absolute;
+  z-index: 20;
+  height: 484px;
+  width: 297px;
+  right: 202px;
+  margin-top: -73px;
+  img {
+    height: inherit;
+    width: inherit;
+  }
+}
+#note-exp {
+  .note-exp-text {
+    font-size: 20px;
+    width: 30%;
+    margin-left: 20%;
+    margin-right: 50%;
+    margin-top: 2em;
+  }
+}
+#note-services {
+  background-color: $green-arrow;
+  height: 400px;
+  .note-services-blocks {
+    color: white;
+    display: inline-block;
+  }
+  #note-services-title {
+    font-size: 35px;
+  }
+  #note-services-rows {
+    position: absolute;
+    margin-top: 25px;
+    float: left;
+    margin-left: 700px;
+  }
+  ul {
+    margin-top: 10px;
+    margin-right: 20%;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+      li {
+        margin-top: 30px;
+      }
+
+  }
+  #note-services-img {
+    height: 340px;
+    width: 500px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 105px;
+      img {
+        height: inherit;
+        width: inherit;
+      }
+  }
+}
+
+.before-after-container {
+  width: 610px;
+  margin-left: 370px;
+
+}
+.before-after-text {
+  font-weight: 600;
+  color: $note-blue;
+  font-size: 25px;
+  padding-top: 40px;
+
+}
+.after-text {
+  margin-top: 160px;
+}
+
+.noteables-casestudy-steps-text {
+  color: $note-blue;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+
+.note-3-image-continer-before {
+  margin-left: 110px;
+  margin-top: 60px;
+}
+.note-3-image-continer-after {
+  margin-left: 310px;
+  margin-top: 100px;
+  z-index: 60;
+}
+
+.note-2-image-container {
+  margin-left: 420px;
+}
+
+#note-onboarding-title {
+  font-size: 50px;
+  text-align: center;
+  color: $green-arrow;
+  background: rgb(242, 242, 242);
+  overflow: hidden;
+    div {
+      margin-top: 40px;
+    }
+}
+#note-after-titles {
+  font-size: 50px;
+  text-align: center;
+  color: $green-arrow;
+  background: rgb(242, 242, 242);
+  height: 300px;
+  // overflow: hidden;
+    div {
+      padding-top: 180px;
+    }
+}
+
+#note-onboarding-container {
+  // float: left;
+  .note-onboarding-image-container {
+    width: 200px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-top: 160px;
+    margin: 20px;
+
+      .note-onboarding-image {
+        height: 350px;
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 200px;
+
+          img {
+            height: inherit;
+            width: inherit;
+          }
+      }
+  }
+}
+.b4 {
+  height: 340px;
+}
+.b4-memory {
+  height: 400px;
+}
+#image-before-2 {
+  margin-top: -120px;
+}
+#image-after-2 {
+  margin-top: 50px;
+}
+.after {
+  height: 400px;
+  // background-color: rgb(233, 233, 233);
+  .note-onboarding-image-container-after {
+    width: 200px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-top: 340px;
+    margin: 20px;
+      .note-onboarding-image {
+        height: 350px;
+        width: 200px;
+        // margin-left: 19%;
+
+          img {
+            height: inherit;
+            width: inherit;
+          }
+      }
+  }
+}
+.note-onboarding-image-container2 {
+  width: 200px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  margin-top: 160px;
+  margin: 20px;
+
+    .note-onboarding-image2 {
+      height: 350px;
+      width: 200px;
+      // margin-left: 30%;
+
+        img {
+          height: inherit;
+          width: inherit;
+        }
+    }
+}
+
+#note-onboarding-container-last {
+  background-color: white;
+  height: 400px;
+}
+#noteables-results {
+  margin-top: 200px;
+}

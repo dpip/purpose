@@ -1,0 +1,391 @@
+#case-studies-wrap {
+  height: 600px;
+  width: 100%;
+  position: relative; }
+
+#case-study-border-flag {
+  height: 75px;
+  width: 75px;
+  transform: rotate(45deg);
+  position: absolute;
+  background-color: white;
+  z-index: 50;
+  margin-top: -50px;
+  left: 405px;
+  border-radius: 5px; }
+
+.quotable-wrap {
+  width: 100%;
+  height: 300px;
+  background-color: #01a884;
+  position: relative;
+  font-family: "Slabo 27px", serif; }
+  .quotable-wrap .quote-icon {
+    font-size: 80px;
+    margin: 20px;
+    color: #53b7ac; }
+  .quotable-wrap #quote-left {
+    position: absolute;
+    top: 25px; }
+    .quotable-wrap #quote-left .fa {
+      margin-left: 40px; }
+  .quotable-wrap #quote-right {
+    z-index: 50;
+    position: absolute;
+    right: 40px;
+    bottom: 40px; }
+  .quotable-wrap .quote-text-wrap {
+    position: absolute;
+    top: 90px;
+    font-size: 28px;
+    margin-left: 150px;
+    width: 80%;
+    color: white; }
+  .quotable-wrap .quote-signature {
+    position: absolute;
+    top: 48px;
+    margin-right: -48px;
+    font-size: 25px;
+    color: white;
+    width: 450px; }
+
+.clients-container {
+  font-family: "Slabo 27px", serif;
+  height: 400px;
+  width: 100%;
+  background-color: #e5e5e5;
+  color: black; }
+  .clients-container .clients-title {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px; }
+    .clients-container .clients-title #title-text {
+      position: absolute;
+      margin-top: 30px;
+      margin-left: 5%;
+      width: 220px;
+      border-bottom: 2px solid black; }
+  .clients-container .clients-icon-wrap {
+    height: 150px;
+    width: 100%;
+    margin-top: 5px; }
+
+#slide {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 190px;
+  z-index: 130; }
+
+#view {
+  position: absolute;
+  top: 172px;
+  margin-left: 250.5px;
+  z-index: 140; }
+
+#slideTitle {
+  color: #4684b3;
+  font-size: 45px;
+  font-family: "Slabo 27px", serif;
+  margin-top: -366px;
+  margin-left: 760px; }
+
+#carets {
+  list-style-type: none;
+  margin-left: 726px;
+  font-size: 20px; }
+  #carets li {
+    margin-top: 28px; }
+
+.navDotWrapper {
+  margin-top: 0em;
+  margin-left: 540px; }
+
+.active i {
+  color: #04548c;
+  opacity: 1 !important; }
+
+.dot {
+  color: #c8dae8;
+  display: inline-block;
+  margin-top: 4em;
+  margin-left: 3em; }
+  .dot div {
+    border-color: white; }
+
+.blue-dot {
+  color: blue; }
+
+.fa-caret-right {
+  display: inline; }
+
+#view-case-study {
+  height: 60px;
+  width: 240px;
+  background-color: #04548c;
+  border-radius: 5px;
+  color: white;
+  text-align: center; }
+
+#case-text {
+  color: white;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 45px; }
+
+.mobileHeight {
+  height: 800px; }
+
+li .slide-nav {
+  font-size: 30px; }
+
+.arrow {
+  font-size: 40px;
+  position: absolute;
+  top: 274px;
+  color: #4684b3;
+  opacity: 0.3; }
+
+#arrow-right {
+  right: 45px; }
+
+#arrow-left {
+  left: 45px; }
+
+.logos {
+  display: inline-block;
+  width: calc(100% / 3);
+  height: 150px;
+  width: 300px;
+  float: left;
+  background-color: #e5e5e5;
+  margin-top: 0px; }
+  .logos img {
+    margin-top: 50px;
+    height: inherit;
+    width: inherit;
+    background-color: #e5e5e5; }
+
+#compass-icon {
+  color: black;
+  text-align: center;
+  height: 110%;
+  margin-left: 50px; }
+
+#ch-icon {
+  margin-left: 10%;
+  height: 180px;
+  margin-top: 45px; }
+  #ch-icon img {
+    width: 110%; }
+
+#note-icon {
+  margin-top: 140px;
+  font-size: 55px;
+  color: black;
+  text-align: center;
+  font-family: 'Signika', sans-serif;
+  padding-top: 15px;
+  margin-left: 10%; }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #case-studies-wrap {
+    height: 1200px;
+    width: 100%;
+    position: relative; }
+
+  #case-study-border-flag {
+    display: none;
+    height: 75px;
+    width: 75px;
+    transform: rotate(45deg);
+    position: absolute;
+    background-color: white;
+    z-index: 50;
+    margin-top: -37px;
+    left: 30%; }
+
+  .quotable-wrap {
+    width: 100%;
+    height: 500px;
+    background-color: #01a884;
+    position: relative;
+    font-family: "Slabo 27px", serif; }
+    .quotable-wrap .quote-icon {
+      font-size: 80px;
+      margin: 20px;
+      color: #53b7ac; }
+    .quotable-wrap #quote-left {
+      position: absolute;
+      top: 25px; }
+      .quotable-wrap #quote-left .fa {
+        margin-left: 40px; }
+    .quotable-wrap #quote-right {
+      z-index: 50;
+      position: absolute;
+      right: 40px;
+      bottom: 40px; }
+    .quotable-wrap .quote-text-wrap {
+      position: absolute;
+      top: 90px;
+      font-size: 45px;
+      margin-left: 150px;
+      width: 80%;
+      color: white; }
+    .quotable-wrap .quote-signature {
+      position: absolute;
+      top: 68px;
+      margin-right: -48px;
+      font-size: 35px;
+      color: white;
+      width: 650px; }
+
+  .clients-container {
+    font-family: "Slabo 27px", serif;
+    height: 300px;
+    width: 100%;
+    background-color: #e5e5e5;
+    color: black; }
+    .clients-container .clients-title {
+      height: 150px;
+      width: 100%;
+      text-align: center;
+      background-color: #e5e5e5;
+      font-size: 45px; }
+      .clients-container .clients-title #title-text {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 9%;
+        width: 220px;
+        border-bottom: 1px solid gray; }
+    .clients-container .clients-icon-wrap {
+      height: 200px;
+      width: 100%;
+      bottom: 0;
+      right: 0;
+      background-color: #e5e5e5; }
+
+  #slide {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 240px;
+    z-index: 130; }
+
+  #view {
+    position: absolute;
+    top: 172px;
+    margin-left: 300.5px;
+    z-index: 140; }
+
+  #slideTitle {
+    text-align: center;
+    color: #4684b3;
+    font-size: 55px;
+    font-family: "Slabo 27px", serif;
+    margin-top: 100px;
+    margin-left: 0px; }
+
+  #carets {
+    list-style-type: none;
+    margin-left: 145px;
+    font-size: 40px; }
+    #carets li {
+      margin-top: 28px; }
+
+  .navDotWrapper {
+    top: 390px;
+    position: absolute;
+    margin-left: 235px;
+    font-size: 30px; }
+
+  .active i {
+    color: #04548c;
+    opacity: 1 !important; }
+
+  .dot {
+    color: #c8dae8;
+    display: inline-block;
+    margin-top: 4em;
+    margin-left: 3em; }
+    .dot div {
+      border-color: white; }
+
+  .blue-dot {
+    color: blue; }
+
+  .fa-caret-right {
+    display: inline; }
+
+  #view-case-study {
+    height: 100px;
+    width: 340px;
+    background-color: #04548c;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-top: 90px !important;
+    margin-left: 135px; }
+
+  #case-text {
+    color: white;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 25px; }
+
+  .mobileHeight {
+    height: 800px; }
+
+  li .slide-nav {
+    font-size: 30px; }
+
+  .arrow {
+    font-size: 40px;
+    position: absolute;
+    top: 274px;
+    color: #4684b3;
+    opacity: 0.3; }
+
+  #arrow-right {
+    right: 45px; }
+
+  #arrow-left {
+    left: 45px; }
+
+  .logos {
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 140px;
+    width: 200px;
+    float: left;
+    background-color: #e5e5e5; }
+    .logos img {
+      background-color: #e5e5e5; }
+
+  #compass-icon {
+    color: black;
+    text-align: center;
+    height: 100%;
+    margin-left: 60px;
+    margin-top: -90px; }
+
+  #ch-icon {
+    margin-left: 20px;
+    height: 90%;
+    margin-top: -50px;
+    width: 300px;
+    padding: 0; }
+    #ch-icon img {
+      margin-left: 10%;
+      width: 110%; }
+
+  #note-icon {
+    margin-top: 20px;
+    font-size: 65px;
+    color: black;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    margin-left: 8%;
+    height: 70%;
+    padding: none; } }
+
+/*# sourceMappingURL=work.css.map */

@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Purpose UX</title>
+  <meta name="Daniel Pipkin" content="PurposeUX">
+
+  <link rel="stylesheet" href="assets/scss/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px|Signika" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-animate.min.js"></script>
+  <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.2.1.js"></script>
+
+
+
+</head>
+
+<body ng-app="purpose">
+
+<!-- header   -->
+  <div class = "top-menu-wrap">
+    <div id = "top-menu-containers-wrap">
+    <div class = "top-menu-containers">
+        <div class = "container purpose-image" id = "image">
+          <div class = "container-image "><img src = "assets/images/purpose_logo.png" height = "35px" width = "35px" ></img></div>
+        </div>
+            <div class = "container" id = "home">
+              <a href = "#/home"><div class = "container-text home-text">HOME</div></a>
+            </div>
+                <div class = "container" id = "work">
+                  <a href = "#/work"><div class = "container-text work-text">WORK</div></a>
+                </div>
+              <div class = "container" id = "services">
+                <a href = "#/services"><div class = "container-text services-text">SERVICES</div></a>
+              </div>
+            <div class = "container" id = "about-us">
+              <a href = "#/us"><div class = "container-text us-text">ABOUT US</div></a>
+            </div>
+          <div class = "container-right" id = "lets-talk">
+            <div class = "container-text text">Let's Talk</div>
+          </div>
+          <div class = "underline" id = "underline"></div>
+    </div>
+
+  </div>
+  </div>
+  <div id="sidebar">
+    <div class = "mobile-container" id = "home">
+      <a href = "#/home"><div class = "container-text home-text">HOME</div></a>
+    </div>
+        <div class = "mobile-container" id = "work">
+          <a href = "#/work"><div class = "container-text work-text">WORK</div></a>
+        </div>
+      <div class = "mobile-container" id = "services">
+        <a href = "#/services"><div class = "container-text services-text">SERVICES</div></a>
+      </div>
+    <div class = "mobile-container" id = "about-us">
+      <a href = "#/us"><div class = "container-text us-text">ABOUT US</div></a>
+    </div>
+
+  </div>
+
+
+<!--- end header -->
+
+
+
+      <div>
+        <ng-view autoscroll="true"></ng-view>
+      </div>
+
+
+
+      <script src="js/index.js"></script>
+      <script src="js/home.js"></script>
+      <script src="js/work.js"></script>
+        <script src="js/CCL.js"></script>
+          <script src="js/CH.js"></script>
+              <script src="js/N.js"></script>
+      <script src="js/services.js"></script>
+      <script src="js/about_us.js"></script>
+
+
+</body>
+</html>

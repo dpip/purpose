@@ -1,0 +1,283 @@
+$menu-font-color: rgb(126, 109, 133);
+$menu-font: 'Roboto', sans-serif;
+
+$home-intro-font: 'Slabo 27px', serif;
+
+$arrow-foot: rgb(48, 47, 51);
+$green-arrow: rgb(1, 168, 132);
+
+$workshop-blue: rbg(239, 242, 246);
+
+
+
+
+.vision-wrapper {
+  width: 90%;
+  height: 450px;
+  margin-left: 22%;
+  margin-top: 100px;
+    .vision-row {
+      width: 360px;
+      height: 100%;
+      display: inline-block;
+      font-size: 22px;
+      // font-family: $home-intro-font;
+      font-family: "le-monde-livre-std", "Georgia", serif;
+    }
+    #v-row-one {
+      float: left;
+      margin-right: 50px;
+    }
+}
+#lets-talk-intro {
+  margin-top: -168px;
+  margin-left: 410px;
+  height: 50px;
+  width: 150px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  // font-family: $menu-font;
+  font-family: "le-monde-livre-std", "Georgia", serif;
+  font-style: italic;
+  color: black;
+  border: 1px solid $menu-font-color;
+  font-size: 24px;
+  border-radius: 1px;
+  text-align: center;
+  .container-text-intro {
+    color: black;
+    padding-top: .3em;
+    cursor: pointer;
+
+  }
+}
+#arrow-six {
+  position: absolute;
+  left: 15%;
+  z-index: 50;
+  font-size: 4em;
+  color: $arrow-foot;
+  margin-top: -30px;
+}
+
+#autumn-hero {
+  height: 600px;
+  width: 100%;
+  img {
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+}
+
+.bio-wrapper {
+  width: 100%;
+  height: 1200px;
+  background-color: #F2EDEA;
+  position: absolute;
+    .bio-row {
+      width: 32%;
+      height: 600px;
+      display: inline-block;
+      font-size: 16px;
+      font-family: $home-intro-font;
+      margin-top: 100px;
+      // position: relative;
+
+        img {
+          height: 50%;
+          width: 50%;
+          border-radius: 7em;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bio-text {
+          line-spacing: 5px;
+          margin-top: 40px;
+
+        }
+        .bio-icon {
+          height: 10px;
+          position: relative;
+          bottom: -30px;
+          left: 0px;
+          color: rgb(119, 116, 124) !important;
+          font-weight: bold;
+          text-decoration: none;
+
+
+          a:hover {
+            color: $green-arrow;
+
+          }
+              #deg-m {
+                display: inline-block;
+                text-decoration: none;
+              }
+             .m-us {
+              position: absolute;
+              bottom: -11px;
+              font-weight: bolder;
+            }
+
+
+
+        }
+    }
+    #b-row-one {
+      float: left;
+      margin-left: 12%;
+      margin-right: 10%;
+    }
+}
+
+#footer-us {
+  // margin-top: 100px;
+  bottom: 0;
+}
+
+
+
+ @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .vision-wrapper {
+      width: 100%;
+      height: 1150px;
+      margin-left: 10%;
+      margin-top: 200px;
+        .vision-row {
+          width: 80%;
+          display: block;
+          font-size: 37px;
+          float: none;
+          // font-family: $home-intro-font;
+          font-family: "le-monde-livre-std", "Georgia", serif;
+        }
+        #v-row-one {
+          float: left;
+          margin-right: 0px;
+        }
+        #v-row-two {
+          top: 800px;
+          width: 65%;
+          height: inherit;
+          position: absolute;
+        }
+    }
+    #lets-talk-intro {
+      margin-top: -178px;
+      margin-left: 50px;
+      height: 80px;
+      width: 200px;
+      box-sizing: border-box;
+      display: inline-block;
+      text-align: center;
+      vertical-align: top;
+      // font-family: $menu-font;
+      font-family: "le-monde-livre-std", "Georgia", serif;
+      font-style: italic;
+      color: black;
+      border: 2px solid $menu-font-color;
+      font-size: 40px;
+      border-radius: 1px;
+      text-align: center;
+      .container-text-intro {
+        color: black;
+        padding-top: .3em;
+        cursor: pointer;
+
+      }
+    }
+    #arrow-six {
+      position: absolute;
+      left: 15%;
+      z-index: 50;
+      font-size: 4em;
+      color: $arrow-foot;
+      margin-top: -40px;
+    }
+
+    #autumn-hero {
+      height: 600px;
+      width: 100%;
+      img {
+        height: 600px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+      }
+    }
+
+    .bio-wrapper {
+      width: 100%;
+      height: 3300px;
+      background-color: #F2EDEA;
+      position: absolute;
+        .bio-row {
+          width: 80%;
+          height: 1600px;
+          display: block;
+          float: none;
+          font-size: 38px;
+          font-family: $home-intro-font;
+          margin-top: 100px;
+          // position: relative;
+
+            img {
+              height: 16em;
+              width: 16em;
+              border-radius: 7em;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .bio-text {
+              line-spacing: 5px;
+              margin-top: 40px;
+
+            }
+            .bio-icon {
+              height: 10px;
+              position: relative;
+              bottom: -30px;
+              left: 20px;
+              color: rgb(119, 116, 124);
+              font-weight: bold;
+              font-size: 55px;
+                  #deg-m {
+                    display: inline-block;
+                  }
+                 .m-us {
+                  position: absolute;
+                  bottom: -62px;
+                  font-weight: bolder;
+                }
+
+
+            }
+        }
+        #b-row-one {
+          margin-left: 12%;
+          margin-right: 10%;
+        }
+        #b-row-two {
+          margin-left: 12%;
+          margin-right: 10%;
+        }
+
+    }
+
+    #footer-us {
+      // margin-top: 100px;
+      position: absolute;
+      top: 3300px;
+      height: 1100px;
+    }
+  }

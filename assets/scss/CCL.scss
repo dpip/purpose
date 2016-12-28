@@ -1,0 +1,560 @@
+$menu-font-color: rgb(126, 109, 133);
+$menu-font: 'Roboto', sans-serif;
+
+$home-intro-font: 'Slabo 27px', serif;
+
+$arrow-foot: rgb(48, 47, 51);
+$green-arrow: rgb(1, 168, 132);
+
+$workshop-blue: rbg(239, 242, 246);
+
+$Work-Blue: #04548c;
+$Work-Red: #d35a52;
+
+
+
+.CCL-main-wrapper {
+  overflow-x: hidden;
+  margin: 0;
+  width: 100%;
+  // max-width: 1000px;
+}
+.container-one {
+  margin-top: 50px;
+  background-color: $Work-Blue;
+  // z-index: -50;
+  // position: relative;
+}
+.Case-Study-Container {
+  height: 400px;
+  width: 100%;
+  // border: 1px solid red;
+}
+#CCL-title-wrap {
+  height: 300px;
+  width: 700px;
+  margin-top: 80px;
+  margin-left: 320px;
+  margin-right: 40%;
+  // border: 1px solid white;
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+#CCL-title-text-one {
+  font-size: 40px;
+}
+#CCL-title-text-two {
+  font-size: 30px;
+  margin-top: 20px;
+}
+#ccl-mac {
+  height: 800px;
+  // width: 1000px;
+  margin-top: -200px;
+  margin-left: 170px;
+  position: absolute;
+  // z-index: -50;
+
+}
+#ccl-view {
+  height: 494px;
+  width: 809px;
+  margin-top: -57px;
+  margin-left: 301px;
+  position: absolute;
+}
+#laptop-dash {
+  height:1px;
+  width: 100%;
+  border: 1px dashed $Work-Red;
+  position: absolute;
+  z-index: 10;
+  margin-top: 390px;
+}
+#CCL-intro-wrap {
+  height: 200px;
+}
+#CCL-intro {
+  color: rgb(100, 100, 100);
+  font-size: 20px;
+  font-family: "soleil", 'Oxygen', sans-serif;
+  width: 820px;
+  height: 300px;
+  margin-top: 150px;
+  margin-left: 270px;
+}
+#CCL-services {
+  background-color: $green-arrow;
+  height: 440px;
+}
+#services-image {
+img {
+  width: 500px;
+  height: 380px;
+  margin-left: 180px;
+  font-size: 0;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  // position: absolute;
+  // z-index: 100;
+}
+}
+.services-dilb {
+  display: inline-block;
+}
+#services-right-wrap {
+ height: 400px;
+ position: absolute;
+}
+#services-title {
+  color: white;
+  font-size: 30px;
+  margin-left: 100px;
+  letter-spacing: 2px;
+  margin-top: 80px;
+}
+.services-bulliets {
+  color: white;
+  font-size: 20px;
+  margin-top: 1em;
+  letter-spacing: 2px;
+  margin-left: 100px;
+  font-family: "soleil", 'Oxygen', sans-serif;
+
+}
+.assessment-results-screen {
+  margin-top: -5px;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(242, 242, 242);
+  position: absolute;
+}
+#ccl-assessment-results-screen {
+  margin-top: -5px;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(242, 242, 242);
+  position: absolute;
+}
+#border-line-two {
+  height: 30px;
+  margin-top: 35px;
+  border-top: 1px dashed $Work-Red;
+}
+#assessment-results-screen-text {
+  font-size: 50px;
+  color: $Work-Blue;
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#CCL-assessment-results-wrap {
+  margin-top: 195px;
+  height: 400px;
+  width: 100%;
+  // border: 1px solid red;
+  // background-color: red;
+}
+.CCL-assessment-results-blocks {
+  float: left;
+  width: calc(100% / 2);
+  display: inline-block;
+  height: 100%;
+
+}
+#CCL-results-before-carret {
+  position: absolute;
+  margin-top: 95px;
+  left: 47%;
+  font-size: 140px;
+  color: $Work-Blue;
+}
+#CCL-assessment-results-block-two {
+  background-color: $Work-Blue;
+  float: right;
+  color: white;
+  font-size: 20px;
+}
+.before {
+  font-size: 25px;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+.before-text {
+  width: 400px;
+  line-height: 30px;
+  margin-left: 150px;
+}
+.before-after {
+  font-size: 25px;
+  margin-top: 60px;
+  float: right;
+  margin-right: 540px;
+  padding-bottom: 20px;
+}
+#CCL-assessment-results-block-one {
+  background-color: rgb(225, 225, 225);
+    img {
+      height: 300px;
+      width: 500px;
+      margin-top: 50px;
+      margin-left: 80px;
+    }
+}
+
+#CCL-assessment-results-block-one-after {
+  background-color: $Work-Blue;
+  // float: right;
+  color: white;
+  font-size: 20px;
+
+}
+#CCL-assessment-results-block-two-after {
+  background-color: rgb(225, 225, 225);
+      img {
+        height: 300px;
+        width: 500px;
+        margin-top: 50px;
+        margin-left: 12%;
+      }
+}
+#CCL-results-after-carret {
+  position: absolute;
+  margin-top: 95px;
+  left: 49%;
+  font-size: 140px;
+  color: $Work-Blue;
+}
+.goal-setting-screen {
+  margin-top: -5px;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(242, 242, 242);
+  position: absolute;
+}
+#goal-setting-screen-text {
+  font-size: 50px;
+  color: $Work-Blue;
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+#border-line-three {
+  height: 30px;
+  margin-top: -212px;
+  border-top: 1px dashed $Work-Red;
+}
+.results-footer {
+  width: 100%;
+  height: 350px;
+  font-size: 30px;
+}
+#results-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+#results-p {
+  font-size: 20px;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+#view-more {
+  font-size: 35px;
+  margin-top: 70px;
+  text-align: center;
+  color: black;
+  width: 420px;
+  height: 55px;
+  padding-top: 10px;
+  border: 2px solid black;
+  border-radius: 1em;
+  margin-left: 450px;
+
+
+}
+a {
+  text-decoration: none !important;
+}
+
+
+@media only screen
+   and (min-device-width: 375px)
+   and (max-device-width: 667px)
+   and (-webkit-min-device-pixel-ratio: 2) {
+
+  .CCL-main-wrapper {
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+    // max-width: 1000px;
+  }
+  .container-one {
+    margin-top: 50px;
+    background-color: $Work-Blue;
+    // z-index: -50;
+    // position: relative;
+  }
+  .Case-Study-Container {
+    height: 400px;
+    width: 100%;
+    // border: 1px solid red;
+  }
+  #CCL-title-wrap {
+    height: 300px;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 140px;
+    margin-right: 40%;
+    // border: 1px solid white;
+    position: absolute;
+    text-align: center;
+    color: white;
+  }
+  #CCL-title-text-one {
+    font-size: 60px;
+  }
+  #CCL-title-text-two {
+    font-size: 45px;
+    margin-top: 20px;
+  }
+  #ccl-mac {
+    height: 600px;
+    // width: 1000px;
+    margin-top: 10px;
+    margin-left: 90px;
+    position: absolute;
+    // z-index: -50;
+
+  }
+  #ccl-view {
+    height: 384px;
+    width: 607px;
+    margin-top: 115px;
+    margin-left: 188px;
+    position: absolute;
+  }
+  #laptop-dash {
+    height:1px;
+    width: 100%;
+    border: 1px dashed $Work-Red;
+    position: absolute;
+    z-index: 10;
+    margin-top: 390px;
+  }
+  #CCL-intro-wrap {
+    height: 600px;
+  }
+  #CCL-intro {
+    color: rgb(100, 100, 100);
+    font-size: 39px;
+    font-family: "soleil", 'Oxygen', sans-serif;
+    width: 810px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 90px;
+  }
+  #CCL-services {
+    background-color: $green-arrow;
+    height: 540px;
+  }
+  #services-image {
+  img {
+    width: 400px;
+    height: 380px;
+    margin-left: 90px;
+    font-size: 0;
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    // position: absolute;
+    // z-index: 100;
+  }
+  }
+  .services-dilb {
+    display: inline-block;
+  }
+  #services-right-wrap {
+   height: 400px;
+   position: absolute;
+  }
+  #services-title {
+    color: white;
+    font-size: 50px;
+    margin-left: 70px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+  }
+  .services-bulliets {
+    color: white;
+    font-size: 30px;
+    margin-top: 1em;
+    letter-spacing: 2px;
+    margin-left: 70px;
+    font-family: "soleil", 'Oxygen', sans-serif;
+
+  }
+  .assessment-results-screen {
+    margin-top: -5px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(242, 242, 242);
+    position: absolute;
+  }
+  #ccl-assessment-results-screen {
+    margin-top: -5px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(242, 242, 242);
+    position: absolute;
+  }
+  #border-line-two {
+    height: 30px;
+    margin-top: 35px;
+    border-top: 1px dashed $Work-Red;
+  }
+  #assessment-results-screen-text {
+    font-size: 50px;
+    color: $Work-Blue;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  #CCL-assessment-results-wrap {
+    margin-top: 195px;
+    height: 400px;
+    width: 100%;
+    // border: 1px solid red;
+    // background-color: red;
+  }
+  .CCL-assessment-results-blocks {
+    float: none;
+    width: 100%;
+    display: block;
+    height: 100%;
+
+  }
+  #CCL-results-before-carret {
+    display: none;
+    position: absolute;
+    margin-top: 95px;
+    left: 47%;
+    font-size: 140px;
+    color: $Work-Blue;
+  }
+  #CCL-assessment-results-block-two {
+    background-color: $Work-Blue;
+    float: none;
+    color: white;
+    font-size: 20px;
+  }
+  .before {
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+  .before-text {
+    width: 400px;
+    line-height: 30px;
+    margin-left: 150px;
+  }
+  .before-after {
+    font-size: 25px;
+    margin-top: 60px;
+    float: right;
+    margin-right: 540px;
+    padding-bottom: 20px;
+  }
+  #CCL-assessment-results-block-one {
+    background-color: rgb(225, 225, 225);
+      img {
+        height: 300px;
+        width: 500px;
+        margin-top: 50px;
+        margin-left: 80px;
+      }
+  }
+
+  #CCL-assessment-results-block-one-after {
+    background-color: $Work-Blue;
+    // float: right;
+    color: white;
+    font-size: 20px;
+
+  }
+  #CCL-assessment-results-block-two-after {
+    background-color: rgb(225, 225, 225);
+        img {
+          height: 300px;
+          width: 500px;
+          margin-top: 50px;
+          margin-left: 12%;
+        }
+  }
+  #CCL-results-after-carret {
+    display: none;
+    position: absolute;
+    margin-top: 95px;
+    left: 49%;
+    font-size: 140px;
+    color: $Work-Blue;
+  }
+  .goal-setting-screen {
+    margin-top: -5px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(242, 242, 242);
+    position: absolute;
+  }
+  #goal-setting-screen-text {
+    font-size: 50px;
+    color: $Work-Blue;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+  }
+  #border-line-three {
+    height: 30px;
+    margin-top: -212px;
+    border-top: 1px dashed $Work-Red;
+  }
+  .results-footer {
+    width: 100%;
+    height: 350px;
+    font-size: 30px;
+  }
+  #results-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  #results-p {
+    font-size: 20px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+  #view-more {
+    font-size: 35px;
+    margin-top: 70px;
+    text-align: center;
+    color: black;
+    width: 420px;
+    height: 55px;
+    padding-top: 10px;
+    border: 2px solid black;
+    border-radius: 1em;
+    margin-left: 450px;
+
+
+  }
+  a {
+    text-decoration: none !important;
+  }
+
+}

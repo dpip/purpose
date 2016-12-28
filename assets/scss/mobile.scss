@@ -1,0 +1,713 @@
+$menu-font-color: rgb(126, 109, 133);
+$menu-font: 'Roboto', sans-serif;
+
+$home-intro-font: 'Slabo 27px', serif;
+
+$arrow-foot: rgb(48, 47, 51);
+$green-arrow: rgb(1, 168, 132);
+
+$workshop-blue: rbg(239, 242, 246);
+
+
+
+
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+// /* ----------- iPhone 6 ----------- */
+//
+// /* Portrait and Landscape */
+// @media only screen
+//   and (min-device-width: 375px)
+//   and (max-device-width: 667px)
+//   and (-webkit-min-device-pixel-ratio: 2) {
+//
+// // menu and home
+//
+//     .top-menu-wrap {
+//
+//       height: 140px;
+//       width: 100%;
+//       background-color: white;
+//       z-index: 190;
+//
+//       #top-menu-containers-wrap {
+//         background-color: white;
+//         height: 140px;
+//         width: 100%;
+//         z-index: 110;
+//
+//         .top-menu-containers {
+//
+//           position: fixed;
+//           background-color: white;
+//           height: 140px;
+//           width: inherit;
+//           z-index: 190;
+//
+//           #image {
+//             width: 100px;
+//           }
+//
+//           .container {
+//             height: 100px;
+//             width: 100%;
+//             box-sizing: border-box;
+//             display: inline-block;
+//             text-align: center;
+//             vertical-align: top;
+//             font-family: $menu-font;
+//             color: $menu-font-color;
+//             position: relative;
+//             // margin-left: 73px;
+//
+//               a {
+//                 display: none;
+//               }
+//               .container-text {
+//                 padding-top: 1.8em;
+//                 cursor: pointer;
+//                 padding-bottom: 7px;
+//
+//
+//               }
+//
+//               .container-image {
+//                 margin-left: -70px;
+//                 img {
+//                 height: 6em;
+//                 width: 6em;
+//                 margin-top: 2.5em;
+//               }
+//             }
+//
+//           }
+//           .container-right {
+//
+//             // this is th lets talk button !
+//
+//             position: absolute;
+//             top: 0;
+//             right: 0;
+//             margin-right: 1em;
+//             margin-top: .7em;
+//             height: 90px;
+//             width: 200px;
+//             box-sizing: border-box;
+//             display: none;
+//             text-align: center;
+//             vertical-align: top;
+//             font-family: $menu-font;
+//             color: $menu-font-color;
+//             border: 1px solid $menu-font-color;
+//             font-size: 40px;
+//             border-radius: 12px;
+//
+//             .container-text {
+//               padding-top: .4em;
+//               cursor: pointer;
+//
+//             }
+//           }
+//       }
+//     }
+//     }
+//
+// // mobile header
+//
+//   #sidebar {
+//     display: block;
+//     position: fixed;
+//     z-index: 195;
+//     width: 40%;
+//     height: 50%;
+//     border-radius: 0em 0em 2em 0em;
+//     background-color: $green-arrow;
+//     opacity: .9;
+//
+//
+//     a {
+//       color: white;
+//
+//     }
+//   }
+// .mobile-container {
+//   font-size: 50px;
+//   width: 100%;
+//   margin-top: 100px;
+//   margin-left: 10px;
+//   text-align: center;
+//   color: white;
+// }
+// #about-us {
+//   width: 100%;
+// }
+//
+// // Text Body -------->
+// #home-intro-text-wrap {
+//   height: 1000px;
+//   width: 100%;
+//   margin-left: 10%;
+//     .home-intro-text-one {
+//       font-size: 70px;
+//       margin-left: 142px;
+//       margin-top: 30px;
+//       font-family: $home-intro-font;
+//       width: 50%;
+//     }
+//
+//     .home-intro-text-two {
+//       font-size: 35px;
+//       margin-left: 60px;
+//       margin-top: 500px;
+//       font-family: $home-intro-font;
+//       width: 70%;
+//       z-index: 50;
+//     }
+//
+//     .home-intro-text-three {
+//       font-size: 35px;
+//       margin-left: 60px;
+//       margin-top: 40px;
+//       font-family: $home-intro-font;
+//       width: 80%;
+//     }
+//     #lets-talk-intro {
+//       // margin-top: 4em;
+//       // margin-left: 132px;
+//       // position: absolute;
+//       display: none;
+//       top: 200px;
+//       right: 50%;
+//       height: 40px;
+//       width: 100px;
+//       box-sizing: border-box;
+//       // display: inline-block;
+//       text-align: center;
+//       vertical-align: top;
+//       font-family: $menu-font;
+//       color: black;
+//       border: 1px solid $menu-font-color;
+//       font-size: 16px;
+//       border-radius: 1px;
+//       text-align: center;
+//       .container-text-intro {
+//         color: black;
+//         padding-top: .6em;
+//         cursor: pointer;
+//
+//       }
+//   }
+// }
+//
+//
+//
+// // Water Tower Hero Image and arrow one -------->
+//
+// #arrow-one {
+//   position: absolute;
+//   top: 1125px;
+//   left: 6%;
+//   z-index: 50;
+//   font-size: 7em;
+//   color: $arrow-foot;
+//
+//   .fa-long-arrow-down {
+//   }
+// }
+// #tower-hero {
+//   img {
+//     height: 400px;
+//     width: 100%;
+//     position: absolute;
+//     top: 400px;
+//     left: 0;
+//     z-index: 25;
+//   }
+// }
+//
+// // Our approach -------->
+//
+// .approach-wrapper {
+//     height: 1382px;
+//     width: 100%;
+//     position: inherit;
+//     background-color: rgb(239, 242, 246);
+//     font-size: 0;
+//     font-family: $home-intro-font;
+//
+//       .why-container {
+//         height: 200px;
+//         width: 97%;
+//         margin-left: 4.3%;
+//         margin-top: 40px;
+//         padding-top: 40px;
+//
+//           .why-we-deliver {
+//             margin-left: 120px;
+//             margin-top: 40px;
+//             color: $green-arrow;
+//             font-size: 45px;
+//             width: 100%;
+//             padding-bottom: 5px;
+//           }
+//
+//           .delivery-reasons {
+//             display: block;
+//             width: 100%;
+//             height: 300px;
+//             margin-top: 70px;
+//             margin-left: 50px;
+//
+//               .circle {
+//                 height: 80px;
+//                 width: 80px;
+//                 border: 1px solid white;
+//                 border-radius: 50px;
+//                 background-color: white;
+//                 color: $green-arrow;
+//                 font-size: 45px;
+//                 float: left;
+//                 margin-left: -50px;
+//
+//                   .c-nums {
+//                     margin-left: 28px;
+//                     margin-top: 10px;
+//                   }
+//               }
+//             .delivery-reasons-text {
+//               // border: 1px solid green;
+//               width: auto;
+//               height: 100px;
+//               font-size: 35px;
+//               margin-top: 20px;
+//               margin-right: 14%;
+//               margin-left: 65px;
+//               float: left;
+//
+//               .delivery-text-intro {
+//                 font-size: 41px;
+//                 margin-top: -90px;
+//                 padding-bottom: 20px;
+//               }
+//             }
+//
+//           }
+//
+//       }
+//
+// }
+//
+//
+// // Our publications ----------->
+//
+//
+// .publications-wrapper {
+//   height: 1272px;
+//   width: 100%;
+//   position: inherit;
+//   background-color: rgb(242, 237, 234);
+//
+//     .our-writing-container {
+//       height: 800px;
+//       width: 100%;
+//       margin-left: 0%;
+//       margin-top: 0px;
+//
+//
+//         .our-writing-title {
+//           font-size: 45px;
+//           width: 100%;
+//           margin-left: 66px;
+//           font-family: $home-intro-font;
+//           padding-bottom: 50px;
+//           padding-top: 50px;
+//         }
+//         .article-container {
+//           font-size: 30px;
+//           width: 100%;
+//           border-top: 2px solid black;
+//           height: 520px;
+//           float: left;
+//             .article-title-author {
+//               height: 100%;
+//               width: 22%;
+//               float: left;
+//               margin-top: 30px;
+//               margin-left: 20px;
+//             }
+//             .article-teaser {
+//               font-size: 35px;
+//               height: 100%;
+//               width: 60%;
+//               margin-left: 6%;
+//               margin-top: 30px;
+//               float: left;
+//             }
+//             .medium {
+//               font-size: 40px;
+//               height: 100%;
+//               width: 9%;
+//               margin-top: 20px;
+//                 .M {
+//                   float: right;
+//                 }
+//             }
+//             .art-one-dilb {
+//               display: inline-block;
+//             }
+//             .art-two-dilb{
+//               display: inline-block;
+//             }
+//         }
+//
+//     }
+//
+// }
+// #home-author {
+//   margin-left: 280px;
+//   width: 300px;
+//   margin-top: 100px;
+// }
+// #arrow-two {
+//   position: absolute;
+//   top: 2500px;
+//   left: 6%;
+//   z-index: 50;
+//   font-size: 7em;
+//   color: $arrow-foot;
+//
+//   .fa-long-arrow-down {
+//   }
+// }
+//
+// #arrow-three {
+//   position: absolute;
+//   top: 4170px;
+//   left: 6%;
+//   z-index: 50;
+//   font-size: 7em;
+//   color: $green-arrow;
+//
+//   .fa-long-arrow-down {
+//   }
+// }
+// #chair-hero {
+//   img {
+//     height: 400px;
+//     width: 100%;
+//     position: absolute;
+//     top: 3865px;
+//     left: 0;
+//     z-index: 25;
+//   }
+// }
+//
+//
+//
+// // Tell Us About Your project -------->
+//
+// .tell-us-wrapper {
+//   height: 650px;
+//   width: 100%;
+//   position: inherit;
+//
+//   .tell-us-container {
+//     height: 700px;
+//     width: 94%;
+//     margin-left: 5%;
+//     margin-top: 500px;
+//     // border: 1px solid red;
+//
+//       .tell-us-title {
+//         font-size: 55px;
+//         width: 100%;
+//         font-family: $home-intro-font;
+//         padding-bottom: 25px;
+//         color: $green-arrow;
+//
+//       }
+//       .tell-us-form {
+//         width: 100%;
+//         height: 245px;
+//         // border: 1px solid blue;
+//
+//           .name-email-inputs-wrap {
+//             width: 100%;
+//
+//               .name-email-inputs {
+//                 display: inline-block;
+//                 width: calc(100% /2 - 40px);
+//                 height: 85px;
+//                 margin-top: 40px;
+//
+//                   #email {
+//                     margin-left: 2%;
+//                   }
+//
+//                   input {
+//                     // width: calc(100% /2 -10px);
+//                     width: 99%;
+//                     height: 99%;
+//                     border-radius: 5px;
+//                     background-color: rgb(234, 230, 235);
+//                     border: 1px solid rgb(234, 230, 235);
+//                     color: black;
+//                     font-size: 38px;
+//
+//                   }
+//               }
+//               #email {
+//                 float: right;
+//                 margin-right: 15px;
+//               }
+//               .your-project-input {
+//                 width: 100%;
+//                 height: 200px;
+//                 margin-top: 60px;
+//
+//                   textarea {
+//                     height: 100%;
+//                     width: 97.5%;
+//                     border-radius: 5px;
+//                     background-color: rgb(234, 230, 235);
+//                     border: 1px solid rgb(234, 230, 235);
+//                     color: black;
+//                     font-size: 38px;
+//
+//
+//                   }
+//               }
+//               .tell-us-submit-button {
+//                 width: 220px;
+//                 height: 95px;
+//                 border: 1px solid $green-arrow;
+//                 border-radius: 5px;
+//                 margin-top: 70px;
+//                 font-size: 45px;
+//                 color: $green-arrow;
+//                 text-align: center;
+//
+//                   .tell-us-submit-text {
+//                     // margin-left: 22px;
+//                     margin-top: 14px;
+//                   }
+//               }
+//
+//           }
+//       }
+//   }
+//
+// }
+//
+//
+// .footer-wrapper{
+//   height: 1000px;
+//   width: 100%;
+//   position: inherit;
+//   background-color: $arrow-foot;
+//   font-family: $menu-font;
+//
+//
+//
+//     .contact-container {
+//       height: 300px;
+//       width: 70%;
+//       margin-left: 15%;
+//       margin-top: 75px;
+//
+//       // border: 1px solid white;
+//
+//         .contact-aisles {
+//           width: 101%;
+//           height: 100%;
+//
+//             .contact-aisle {
+//               height: 200px;
+//               width: 100%;
+//               float: left;
+//               display: inline;
+//               font-size: 35px;
+//               color: rgb(119, 116, 124);
+//               margin-top: 80px;
+//
+//                 .contact-icons {
+//                   margin-top: 20px;
+//                   // margin-left: 10px;
+//                 }
+//
+//                 .subscribe-email {
+//                   width: 200px;
+//                   height: 80px;
+//                   border: 1px solid rgb(119, 116, 124);;
+//                   border-radius: 5px;
+//                   margin-top: 30px;
+//                   font-size: 35px;
+//                   color: rgb(119, 116, 124);
+//
+//                     .subscribe-email-text {
+//                       margin-left: 20px;
+//                       margin-top: 12px;
+//                       color: rgb(119, 116, 124);
+//                     }
+//
+//                 }
+//
+//             }
+//             #aisle-one {
+//             }
+//             #aisle-two {
+//             }
+//             #aisle-three {
+//             }
+//             .sign-up {
+//               input {
+//                 color: white;
+//                 background-color: rgb(119, 116, 124);
+//                 border: 1px solid rgb(119, 116, 124);
+//                 width: 78%;
+//                 border-radius: 5px;
+//                 height: 80px;
+//                 font-size: 35px;
+//                 outline: none;
+//               }
+//             }
+//         }
+//     }
+//     .sign-up {
+//       margin-top: 20px;
+//     }
+//     .contact-underline {
+//       border-bottom: solid 2px rgb(119, 116, 124);
+//       display: inline;
+//       padding-bottom: 3px;
+//       line-height: 30px;
+//       margin-bottom: 10px;
+//     }
+//
+// }
+// #footer-home {
+//   top: 3600px;
+// }
+//
+// .case-studies-wrap {
+//   height: 600px;
+//   width: 100%;
+//   border: 1 solid red;
+//     .case-studies-title {
+//
+//     }
+//     .case-studies-display {
+//
+//     }
+//     #case-study-border-flag {
+//       height: 60px;
+//       width: 60px;
+//       transform: rotateX(45deg);
+//       position: absolute;
+//       border: 1 solid blue;
+//     }
+// }
+//
+//
+// }
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}

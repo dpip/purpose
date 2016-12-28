@@ -1,0 +1,134 @@
+
+<div id = "case-studies-wrap" ng-controller = "WorkController">
+  <img ng-repeat = "slide in slides" class = "slide" id = "slide" ng-show="" ng-hide="!isCurrentSlideIndex($index)" ng-src = "{{slide.image}}" width = "500px" height = "400px" ng-style="set_HeightOne(slide)"></img>
+    <div ng-repeat = "slide in slides" class = "slide" id = "slideTitle" ng-hide="!isCurrentSlideIndex($index)">{{slide.title}}</div>
+      <ul ng-repeat = "slide in slides" id = "carets" ng-hide="!isCurrentSlideIndex($index)">
+        <li>
+          <i class="fa fa-caret-right" aria-hidden="true"></i>
+          &nbsp;&nbsp;
+          {{slide.bullietOne}}
+        </li>
+        <li>
+          <i class="fa fa-caret-right" aria-hidden="true"></i>
+          &nbsp;&nbsp;
+          {{slide.bullietTwo}}
+        </li>
+        <li>
+          <i class="fa fa-caret-right" aria-hidden="true"></i>
+          &nbsp;&nbsp;
+          {{slide.bullietThree}}
+        </li>
+        <a href = "{{slide.href}}"><li id = "view-case-study">
+          <div id = "case-text">
+            View Case Study
+          </div>
+        </li></a>
+      </ul>
+
+  <img ng-repeat = "slide in slides" class = "slide" id = "view" ng-hide="!isCurrentSlideIndex($index)" ng-src = "{{slide.imageTwo}}" width = "378px" height = "246px" ng-style="set_HeightTwo(slide)"></img>
+
+  <!-- potential navigation arrows ready to go :) -->
+  <!-- <div class = "arrow prev" id = "arrow-right" href="#" ng-click="prevSlide()"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+  <div class = "arrow prev" id = "arrow-left" href="#" ng-click="nextSlide()"><i class="fa fa-chevron-left" aria-hidden="true"></i></div> -->
+
+    <nav class = "nav">
+      <div class = "navDotWrapper">
+        <ul class = "dots" >
+          <li class="dot"  ng-repeat = "slide in slides">
+            <div ng-init="slide.isblue = false" ng-class="{active:isCurrentSlideIndex($index)}" ng-class-blue="{dotSelected:colorDot($index)}" style="cursor:pointer" ng-click = "setCurrentSlideIndex($index); colorDot($index)">
+              <i class="fa fa-circle" aria-hidden="true">
+              </i>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</div>
+<div id = "case-study-border-flag"></div>
+
+<div class = "quotable-wrap">
+  <div class = "quote-icon" id = "quote-left">
+    <i class="fa fa-quote-left" aria-hidden="true"></i>
+  </div>
+    <div class = "quote-text-wrap">
+      Compass is AWESOME!! We are getting such great fedback - the most
+      frequent comment we get from people is it's so intuitive!!!
+    </div>
+    <div class = "quote-icon" id = "quote-right">
+      <div class = "quote-signature" id = "quote-right">
+        -Jill Ford, Compass Project Manager
+      </div>
+      <i class="fa fa-quote-right" aria-hidden="true"></i>
+    </div>
+</div>
+
+<div class = "clients-container">
+  <div class = "clients-title">
+    <div id = "title-text">Our Clients</div>
+  </div>
+  <div class = "clients-icon-wrap">
+      <!-- <div class = "logos" id = "compass-icon"><div><i class="fa fa-compass" aria-hidden="true"></i>&nbsp;&nbsp;Compass</div></div> -->
+      <div class = "logos" id = "compass-icon"><img src = "assets/images/logos/ccl logo.png"></img></div>
+      <div class = "logos" id = "ch-icon"><img src = "assets/images/logos/contracthound2.png"></img></div>
+      <div class = "logos" id = "note-icon"><div>Noteables</div></div>
+  </div>
+</div>
+
+<div class = "footer-wrapper" id  = "footer-work">
+  <div class = "contact-container">
+    <div class = "contact-aisles">
+      <div class = "contact-aisle">
+        <div class = "contact-icons">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          &nbsp;
+          <div class = "contact-underline">info@purposeux.com</div>
+        </div>
+          <div class = "contact-icons">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            &nbsp;
+            <div class = "contact-underline">+1 919 213 9022</div>
+          </div>
+        <div class = "contact-icons">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          &nbsp;&nbsp;
+          <div class = "contact-underline">212 W. Main St. Suite 309 </div>
+          <br>
+
+          <div class = "contact-underline">Durham, NC 27701</div>
+        </div>
+
+      </div>
+      <div class = "contact-aisle">
+        <div class = "contact-icons">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          &nbsp;
+           <div class = "contact-underline">@PurposeUX</div>
+        </div>
+          <div class = "contact-icons">
+            M
+            &nbsp;
+            <div class = "contact-underline">Our long form thoughts</div>
+          </div>
+        <div class = "contact-icons">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          &nbsp;
+           <div class = "contact-underline">Purpose UX on LinkedIn</div>
+        </div>
+      </div>
+      <div class = "contact-aisle">
+        <div class = "sign-up">
+          &nbsp;Sign up for our newsletter
+        </div>
+          <div class = "sign-up">
+            <input placeholder=" Email"></input>
+          </div>
+        <div class = "sign-up">
+          <div class = "subscribe-email">
+            <div class = "subscribe-email-text">Subscribe</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class = "all-rights-reserved">Purpose UX, All Rights Reserved 2016</div>
+  </div>
+</div>

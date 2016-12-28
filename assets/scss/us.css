@@ -1,0 +1,209 @@
+.vision-wrapper {
+  width: 90%;
+  height: 450px;
+  margin-left: 22%;
+  margin-top: 100px; }
+  .vision-wrapper .vision-row {
+    width: 360px;
+    height: 100%;
+    display: inline-block;
+    font-size: 22px;
+    font-family: "le-monde-livre-std", "Georgia", serif; }
+  .vision-wrapper #v-row-one {
+    float: left;
+    margin-right: 50px; }
+
+#lets-talk-intro {
+  margin-top: -168px;
+  margin-left: 410px;
+  height: 50px;
+  width: 150px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  font-family: "le-monde-livre-std", "Georgia", serif;
+  font-style: italic;
+  color: black;
+  border: 1px solid #7e6d85;
+  font-size: 24px;
+  border-radius: 1px;
+  text-align: center; }
+  #lets-talk-intro .container-text-intro {
+    color: black;
+    padding-top: .3em;
+    cursor: pointer; }
+
+#arrow-six {
+  position: absolute;
+  left: 15%;
+  z-index: 50;
+  font-size: 4em;
+  color: #302f33;
+  margin-top: -30px; }
+
+#autumn-hero {
+  height: 600px;
+  width: 100%; }
+  #autumn-hero img {
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    left: 0; }
+
+.bio-wrapper {
+  width: 100%;
+  height: 1200px;
+  background-color: #F2EDEA;
+  position: absolute; }
+  .bio-wrapper .bio-row {
+    width: 32%;
+    height: 600px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Slabo 27px", serif;
+    margin-top: 100px; }
+    .bio-wrapper .bio-row img {
+      height: 50%;
+      width: 50%;
+      border-radius: 7em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    .bio-wrapper .bio-row .bio-text {
+      line-spacing: 5px;
+      margin-top: 40px; }
+    .bio-wrapper .bio-row .bio-icon {
+      height: 10px;
+      position: relative;
+      bottom: -30px;
+      left: 0px;
+      color: #77747c !important;
+      font-weight: bold;
+      text-decoration: none; }
+      .bio-wrapper .bio-row .bio-icon a:hover {
+        color: #01a884; }
+      .bio-wrapper .bio-row .bio-icon #deg-m {
+        display: inline-block;
+        text-decoration: none; }
+      .bio-wrapper .bio-row .bio-icon .m-us {
+        position: absolute;
+        bottom: -11px;
+        font-weight: bolder; }
+  .bio-wrapper #b-row-one {
+    float: left;
+    margin-left: 12%;
+    margin-right: 10%; }
+
+#footer-us {
+  bottom: 0; }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .vision-wrapper {
+    width: 100%;
+    height: 1150px;
+    margin-left: 10%;
+    margin-top: 200px; }
+    .vision-wrapper .vision-row {
+      width: 80%;
+      display: block;
+      font-size: 37px;
+      float: none;
+      font-family: "le-monde-livre-std", "Georgia", serif; }
+    .vision-wrapper #v-row-one {
+      float: left;
+      margin-right: 0px; }
+    .vision-wrapper #v-row-two {
+      top: 800px;
+      width: 65%;
+      height: inherit;
+      position: absolute; }
+
+  #lets-talk-intro {
+    margin-top: -178px;
+    margin-left: 50px;
+    height: 80px;
+    width: 200px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    font-family: "le-monde-livre-std", "Georgia", serif;
+    font-style: italic;
+    color: black;
+    border: 2px solid #7e6d85;
+    font-size: 40px;
+    border-radius: 1px;
+    text-align: center; }
+    #lets-talk-intro .container-text-intro {
+      color: black;
+      padding-top: .3em;
+      cursor: pointer; }
+
+  #arrow-six {
+    position: absolute;
+    left: 15%;
+    z-index: 50;
+    font-size: 4em;
+    color: #302f33;
+    margin-top: -40px; }
+
+  #autumn-hero {
+    height: 600px;
+    width: 100%; }
+    #autumn-hero img {
+      height: 600px;
+      width: 100%;
+      position: absolute;
+      left: 0; }
+
+  .bio-wrapper {
+    width: 100%;
+    height: 3300px;
+    background-color: #F2EDEA;
+    position: absolute; }
+    .bio-wrapper .bio-row {
+      width: 80%;
+      height: 1600px;
+      display: block;
+      float: none;
+      font-size: 38px;
+      font-family: "Slabo 27px", serif;
+      margin-top: 100px; }
+      .bio-wrapper .bio-row img {
+        height: 16em;
+        width: 16em;
+        border-radius: 7em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; }
+      .bio-wrapper .bio-row .bio-text {
+        line-spacing: 5px;
+        margin-top: 40px; }
+      .bio-wrapper .bio-row .bio-icon {
+        height: 10px;
+        position: relative;
+        bottom: -30px;
+        left: 20px;
+        color: #77747c;
+        font-weight: bold;
+        font-size: 55px; }
+        .bio-wrapper .bio-row .bio-icon #deg-m {
+          display: inline-block; }
+        .bio-wrapper .bio-row .bio-icon .m-us {
+          position: absolute;
+          bottom: -62px;
+          font-weight: bolder; }
+    .bio-wrapper #b-row-one {
+      margin-left: 12%;
+      margin-right: 10%; }
+    .bio-wrapper #b-row-two {
+      margin-left: 12%;
+      margin-right: 10%; }
+
+  #footer-us {
+    position: absolute;
+    top: 3300px;
+    height: 1100px; } }
+
+/*# sourceMappingURL=us.css.map */

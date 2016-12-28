@@ -1,0 +1,15 @@
+{
+  "name": "purposeUX",
+  "version": "1.0.0",
+  "description": "Refactoring / Building a new site for PurposeUX ",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Daniel Pipkin",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0"
+  }
+}

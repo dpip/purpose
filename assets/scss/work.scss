@@ -1,0 +1,511 @@
+$menu-font-color: rgb(126, 109, 133);
+$menu-font: 'Roboto', sans-serif;
+
+$home-intro-font: 'Slabo 27px', serif;
+
+$arrow-foot: rgb(48, 47, 51);
+$green-arrow: rgb(1, 168, 132);
+
+$workshop-blue: rbg(239, 242, 246);
+
+
+#case-studies-wrap {
+  height: 600px;
+  width: 100%;
+  position: relative;
+
+    .case-studies-title {
+
+    }
+    .case-studies-display {
+
+    }
+
+}
+#case-study-border-flag {
+  height: 75px;
+  width: 75px;
+  transform: rotate(45deg);
+  position: absolute;
+  background-color: white;
+  z-index: 50;
+  margin-top: -50px;
+  left: 405px;
+  border-radius: 5px;
+
+}
+.quotable-wrap {
+  width: 100%;
+  height: 300px;
+  background-color: $green-arrow;
+  position: relative;
+  font-family: $home-intro-font;
+
+    .quote-icon {
+      font-size: 80px;
+      margin: 20px;
+      color: rgb(83, 183, 172);
+    }
+    #quote-left {
+    position: absolute;
+    top: 25px;
+      .fa {
+        margin-left: 40px;
+      }
+    }
+    #quote-right {
+    // display: inline-block;
+    z-index: 50;
+    position: absolute;;
+    right: 40px;
+    bottom: 40px;
+    }
+    .quote-text-wrap {
+      position: absolute;
+      top: 90px;
+      font-size: 28px;
+      margin-left: 150px;
+      width: 80%;
+      color: white;
+      // height: 100%;
+
+    }
+    .quote-signature {
+      position: absolute;
+      top: 48px;
+      margin-right: -48px;
+      font-size: 25px;
+      color: white;
+      width: 450px;
+    }
+}
+
+  .clients-container {
+    font-family: $home-intro-font;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(229, 229, 229);
+    color: black;
+      .clients-title {
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+          #title-text {
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 5%;
+            width: 220px;
+            border-bottom: 2px solid black;
+          }
+      }
+      .clients-icon-wrap {
+        height: 150px;
+        width: 100%;
+        margin-top: 5px;
+
+
+      }
+
+  }
+
+ #slide {
+   position: relative;
+   margin-top: 100px;
+   margin-left: 190px;
+   z-index: 130;
+  //  top: 100px;
+ }
+ #view {
+   position: absolute;
+   top: 172px;
+   margin-left: 250.5px;
+   z-index: 140;
+ }
+ #slideTitle {
+   color: rgb(70, 132, 179);
+   font-size: 45px;
+   font-family: $home-intro-font;
+    margin-top: -366px;
+    margin-left: 760px;
+ }
+ #carets {
+   list-style-type: none;
+   margin-left: 726px;
+   font-size: 20px;
+     li {
+       margin-top: 28px;
+     }
+ }
+ .navDotWrapper {
+   margin-top: 0em;
+  //  margin-left: 740px;
+  margin-left: 540px;
+  // margin-left: 40%;
+ }
+ .active i {
+ color: rgb(4, 84, 140);
+ opacity: 1 !important;
+
+ }
+ .dot {
+   color: rgb(200, 218, 232);
+   display: inline-block;
+   margin-top: 4em;
+   margin-left: 3em;
+     div {
+       border-color: white;
+     }
+
+ }
+ .blue-dot {
+    color: blue;
+  }
+
+ .fa-caret-right {
+   display: inline;
+ }
+ #view-case-study {
+   height: 60px;
+   width: 240px;
+   background-color: rgb(4, 84, 140);
+   border-radius: 5px;
+   color: white;
+   text-align: center;
+
+ }
+ #case-text {
+   color: white;
+   position: absolute;
+   margin-top: 15px;
+   margin-left: 45px;
+ }
+ .mobileHeight {
+   height: 800px;
+ }
+ li .slide-nav {
+   font-size: 30px;
+ }
+ .arrow {
+   font-size: 40px;
+   position: absolute;
+   top: 274px;
+   color: rgb(70, 132, 179);
+   opacity: .3
+ }
+ #arrow-right {
+   right: 45px;
+ }
+ #arrow-left {
+   left: 45px;
+ }
+
+ .logos {
+   display: inline-block;
+   width: calc(100% / 3);
+   height: 150px;
+   width: 300px;
+   float: left;
+   background-color: rgb(229, 229, 229);
+   margin-top: 0px;
+  //  margin-left: 30px;
+
+  img {
+    margin-top: 50px;
+    height: inherit;
+    width: inherit;
+    background-color: rgb(229, 229, 229);
+  }
+ }
+
+ #compass-icon {
+  //  font-size: 40px;
+   color: black;
+   text-align: center;
+    height: 110%;
+    // margin-top: 50px;
+    margin-left: 50px;
+ }
+ #ch-icon {
+   margin-left: 10%;
+   height: 180px;
+   margin-top: 45px;
+  //  padding-right: 90px;
+     img {
+      //  margin-left: 30%;
+       width: 110%;
+     }
+
+ }
+ #note-icon {
+   margin-top: 140px;
+   font-size: 55px;
+   color: black;
+   text-align: center;
+   font-family: 'Signika', sans-serif;
+  //  margin-left: 15%;
+   padding-top: 15px;
+   margin-left: 10%;
+
+ }
+
+
+
+
+ @media only screen
+   and (min-device-width: 375px)
+   and (max-device-width: 667px)
+   and (-webkit-min-device-pixel-ratio: 2) {
+
+     #case-studies-wrap {
+       height: 1200px;
+       width: 100%;
+       position: relative;
+
+         .case-studies-title {
+
+         }
+         .case-studies-display {
+
+         }
+
+     }
+     #case-study-border-flag {
+       display: none;
+       height: 75px;
+       width: 75px;
+       transform: rotate(45deg);
+       position: absolute;
+       background-color: white;
+       z-index: 50;
+       margin-top: -37px;
+       left: 30%;
+
+     }
+     .quotable-wrap {
+       width: 100%;
+       height: 500px;
+       background-color: $green-arrow;
+       position: relative;
+       font-family: $home-intro-font;
+
+         .quote-icon {
+           font-size: 80px;
+           margin: 20px;
+           color: rgb(83, 183, 172);
+         }
+         #quote-left {
+         position: absolute;
+         top: 25px;
+           .fa {
+             margin-left: 40px;
+           }
+         }
+         #quote-right {
+         // display: inline-block;
+         z-index: 50;
+         position: absolute;;
+         right: 40px;
+         bottom: 40px;
+         }
+         .quote-text-wrap {
+           position: absolute;
+           top: 90px;
+           font-size: 45px;
+           margin-left: 150px;
+           width: 80%;
+           color: white;
+           // height: 100%;
+
+         }
+         .quote-signature {
+           position: absolute;
+           top: 68px;
+           margin-right: -48px;
+           font-size: 35px;
+           color: white;
+           width: 650px;
+         }
+     }
+
+       .clients-container {
+         font-family: $home-intro-font;
+         height: 300px;
+         width: 100%;
+         background-color: rgb(229, 229, 229);
+         color: black;
+           .clients-title {
+             height: 150px;
+             width: 100%;
+             text-align: center;
+             background-color: rgb(229, 229, 229);
+             font-size: 45px;
+               #title-text {
+                 position: absolute;
+                 margin-top: 30px;
+                 margin-left: 9%;
+                 width: 220px;
+                 border-bottom: 1px solid rgb(128, 128, 128);
+               }
+           }
+           .clients-icon-wrap {
+             height: 200px;
+             width: 100%;
+             // border-top: 2px dashed rgb(218, 90, 78);
+             bottom: 0;
+             right: 0;
+             background-color: rgb(229, 229, 229);
+
+             // .clients-title-text {
+             //   vertical-align: top;
+             //   text-align: center;
+             //   font-size: 60px;
+             // }
+           }
+
+       }
+
+      #slide {
+        position: relative;
+        margin-top: 100px;
+        margin-left: 240px;
+        z-index: 130;
+       //  top: 100px;
+      }
+      #view {
+        position: absolute;
+        top: 172px;
+        margin-left: 300.5px;
+        z-index: 140;
+      }
+      #slideTitle {
+        text-align: center;
+        color: rgb(70, 132, 179);
+        font-size: 55px;
+        font-family: $home-intro-font;
+         margin-top: 100px;
+         margin-left: 0px;
+      }
+      #carets {
+        list-style-type: none;
+        margin-left: 145px;
+        font-size: 40px;
+          li {
+            margin-top: 28px;
+          }
+      }
+      .navDotWrapper {
+        top: 390px;
+        position: absolute;
+        margin-left: 235px;
+        font-size: 30px;
+      }
+      .active i {
+      color: rgb(4, 84, 140);
+      opacity: 1 !important;
+
+      }
+      .dot {
+        color: rgb(200, 218, 232);
+        display: inline-block;
+        margin-top: 4em;
+        margin-left: 3em;
+          div {
+            border-color: white;
+          }
+
+      }
+      .blue-dot {
+         color: blue;
+       }
+
+      .fa-caret-right {
+        display: inline;
+      }
+      #view-case-study {
+        height: 100px;
+        width: 340px;
+        background-color: rgb(4, 84, 140);
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        margin-top: 90px !important;
+        margin-left: 135px;
+
+      }
+      #case-text {
+        color: white;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 25px;
+      }
+      .mobileHeight {
+        height: 800px;
+      }
+      li .slide-nav {
+        font-size: 30px;
+      }
+      .arrow {
+        font-size: 40px;
+        position: absolute;
+        top: 274px;
+        color: rgb(70, 132, 179);
+        opacity: .3
+      }
+      #arrow-right {
+        right: 45px;
+      }
+      #arrow-left {
+        left: 45px;
+      }
+      .logos {
+        display: inline-block;
+        width: calc(100% / 3);
+        height: 140px;
+        width: 200px;
+        float: left;
+        background-color: rgb(229, 229, 229);
+        // margin-top: -150px;
+
+       img {
+        //  height: inherit;
+        //  width: inherit;
+         background-color: rgb(229, 229, 229);
+       }
+      }
+
+
+
+
+  #compass-icon {
+   //  font-size: 40px;
+    color: black;
+    text-align: center;
+     height: 100%;
+     margin-left: 60px;
+     margin-top: -90px;
+  }
+  #ch-icon {
+    margin-left: 20px;
+    height: 90%;
+    margin-top: -50px;
+    width: 300px;
+    padding: 0;
+      img {
+        margin-left: 10%;
+        width: 110%;
+      }
+
+  }
+  #note-icon {
+    margin-top: 20px;
+    font-size: 65px;
+    color: black;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    margin-left: 8%;
+    height: 70%;
+    padding: none;
+
+  }
+}

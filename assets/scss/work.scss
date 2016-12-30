@@ -258,10 +258,13 @@ $workshop-blue: rbg(239, 242, 246);
    and (-webkit-min-device-pixel-ratio: 2) {
 
      #case-studies-wrap {
-       height: 1200px;
+       height: 1800px;
        width: 100%;
        position: relative;
-
+          // img {
+          //   height: 700px;
+          //   width: 1000px
+          // }
          .case-studies-title {
 
          }
@@ -436,7 +439,7 @@ $workshop-blue: rbg(239, 242, 246);
       #case-text {
         color: white;
         position: absolute;
-        margin-top: 15px;
+        margin-top: 25px;
         margin-left: 25px;
       }
       .mobileHeight {

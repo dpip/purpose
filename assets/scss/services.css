@@ -170,6 +170,22 @@
     margin-top: 40px;
     margin-bottom: 100px; }
 
+#services-lets-talk {
+  margin-bottom: 2em;
+  margin-left: 20%;
+  margin-top: -2em;
+  height: 40px;
+  width: 115px;
+  text-align: center;
+  font-family: "le-monde-livre-std", "Georgia", serif;
+  color: black;
+  border: 2px solid black;
+  font-size: 22px;
+  border-radius: 1px; }
+  #services-lets-talk div {
+    margin-top: 8px;
+    font-style: italic; }
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .services-wrap {
     height: 1100px;
@@ -230,7 +246,7 @@
 
   .services-three {
     display: inline-block;
-    height: 100%;
+    height: 110%;
     font-family: "Slabo 27px", serif; }
     .services-three #build {
       font-size: 40px;
@@ -251,38 +267,39 @@
   .what-is-it {
     margin-top: 150px;
     width: 100%;
-    height: 30%;
+    height: 32%;
     margin-left: -170px; }
     .what-is-it .what-title {
       margin-top: 10px;
-      font-size: 30px;
+      font-size: 40px;
       font-weight: 600;
       font-family: "soleil", "Oxygen", sans-serif; }
     .what-is-it .what-it-is {
       margin-top: 10px;
-      font-size: 30px; }
+      font-size: 40px; }
 
   .services-include {
     width: 100%;
     height: 60%;
-    margin-left: -170px; }
+    margin-left: -170px;
+    margin-top: 80px; }
     .services-include .services-include-title {
-      font-size: 30px;
+      font-size: 40px;
       font-weight: 600;
       font-family: "soleil", 'Oxygen', sans-serif;
       margin-bottom: 10px; }
     .services-include #services-include-title-1 {
       margin-top: -20px; }
     .services-include #services-include-title-2 {
-      margin-top: 40px; }
+      margin-top: 130px; }
     .services-include #services-include-title-3 {
-      margin-top: 70px; }
+      margin-top: 180px; }
     .services-include .include-column {
       width: calc(100% / 2);
       display: inline-block;
       list-style: none;
       float: left;
-      font-size: 30px; }
+      font-size: 36px; }
       .services-include .include-column div {
         padding-bottom: 6px; }
 
@@ -303,21 +320,23 @@
     width: 100%;
     height: inherit;
     background-color: #eff2f6;
-    margin-top: -100px;
+    margin-top: -105px;
     font-family: "Slabo 27px", serif; }
     .workshops-wrap #workshops-intro {
       height: 200px;
       width: 80%;
-      margin-left: 10%; }
+      margin-left: 10%;
+      margin-top: 100px; }
       .workshops-wrap #workshops-intro .workshops-intros {
         height: calc(100% / 2);
         width: 100%;
         font-size: 40px;
-        margin-top: 100px; }
+        margin-top: 50px; }
       .workshops-wrap #workshops-intro #workshops-title {
         color: #01a884;
         font-size: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
+        margin-top: 20px;
         font-family: "soleil", 'Oxygen', sans-serif; }
     .workshops-wrap .workshops-container {
       height: 700px;
@@ -371,30 +390,31 @@
       margin-bottom: 100px; }
 
   #footer-services {
-    margin-top: 0px; } }
-#services-lets-talk {
-  margin-left: 9.5%;
-  margin-bottom: 50px;
-  margin-top: 0px;
-  height: 85px;
-  width: 215px;
-  box-sizing: border-box;
-  display: inline-block;
-  text-align: center;
-  vertical-align: top;
-  font-family: "le-monde-livre-std", "Georgia", serif;
-  font-style: italic;
-  color: black;
-  border: 2px solid black;
-  font-size: 42px;
-  border-radius: 1px;
-  text-align: center;
-  vertical-align: bottom; }
-  #services-lets-talk div {
-    margin-top: 12px; }
-  #services-lets-talk .container-text-intro {
+    margin-top: 0px; }
+
+  #services-lets-talk {
+    margin-left: 9.5%;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    height: 85px;
+    width: 215px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    font-family: "le-monde-livre-std", "Georgia", serif;
+    font-style: italic;
     color: black;
-    padding-top: .1em;
-    cursor: pointer; }
+    border: 2px solid black;
+    font-size: 42px;
+    border-radius: 1px;
+    text-align: center;
+    vertical-align: bottom; }
+    #services-lets-talk div {
+      margin-top: 12px; }
+    #services-lets-talk .container-text-intro {
+      color: black;
+      padding-top: .1em;
+      cursor: pointer; } }
 
 /*# sourceMappingURL=services.css.map */

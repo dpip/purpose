@@ -149,15 +149,14 @@ $workshop-blue: rbg(239, 242, 246);
 
     .vision-wrapper {
       width: 100%;
-      height: 1150px;
+      height: 2000px;
       margin-left: 10%;
       margin-top: 200px;
         .vision-row {
           width: 80%;
           display: block;
-          font-size: 37px;
+          font-size: 50px;
           float: none;
-          // font-family: $home-intro-font;
           font-family: "le-monde-livre-std", "Georgia", serif;
         }
         #v-row-one {
@@ -165,48 +164,50 @@ $workshop-blue: rbg(239, 242, 246);
           margin-right: 0px;
         }
         #v-row-two {
-          top: 800px;
+          top: 1900px;
           width: 65%;
           height: inherit;
           position: absolute;
         }
     }
     #lets-talk-intro {
-      margin-top: -178px;
-      margin-left: 50px;
-      height: 80px;
-      width: 200px;
+      margin-top: 300px;
+      margin-left: 0px;
+      height: 120px;
+      width: 300px;
       box-sizing: border-box;
       display: inline-block;
       text-align: center;
       vertical-align: top;
-      // font-family: $menu-font;
       font-family: "le-monde-livre-std", "Georgia", serif;
       font-style: italic;
+      font-weight: bold;
       color: black;
-      border: 2px solid $menu-font-color;
-      font-size: 40px;
+      border: 2px solid black;
+      font-size: 50px;
       border-radius: 1px;
       text-align: center;
       .container-text-intro {
         color: black;
-        padding-top: .3em;
+        padding-top: .5em;
         cursor: pointer;
 
       }
     }
     #arrow-six {
       position: absolute;
-      left: 15%;
+      left: 9%;
       z-index: 50;
-      font-size: 4em;
-      color: $arrow-foot;
-      margin-top: -40px;
+      font-size: 7em;
+      color: $green-arrow;
+      margin-top: -560px;
     }
 
     #autumn-hero {
       height: 600px;
       width: 100%;
+      position: absolute;
+      top: 1100px;
       img {
         height: 600px;
         width: 100%;
@@ -217,15 +218,16 @@ $workshop-blue: rbg(239, 242, 246);
 
     .bio-wrapper {
       width: 100%;
-      height: 3300px;
+      height:4400px;
       background-color: #F2EDEA;
       position: absolute;
+      margin-top: 500px;
         .bio-row {
           width: 80%;
-          height: 1600px;
+          height: 1800px;
           display: block;
           float: none;
-          font-size: 38px;
+          font-size: 50px;
           font-family: $home-intro-font;
           margin-top: 100px;
           // position: relative;
@@ -264,20 +266,26 @@ $workshop-blue: rbg(239, 242, 246);
             }
         }
         #b-row-one {
-          margin-left: 12%;
+          margin-left: 10%;
           margin-right: 10%;
+          padding-bottom: 350px;
         }
         #b-row-two {
-          margin-left: 12%;
+          margin-left: 10%;
           margin-right: 10%;
+
         }
+        .James {
+          margin-top: 300px;
+        }
+
 
     }
 
     #footer-us {
       // margin-top: 100px;
       position: absolute;
-      top: 3300px;
-      height: 1100px;
+      top: 4400px;
+      height: 1500px;
     }
   }

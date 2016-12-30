@@ -190,7 +190,7 @@ li .slide-nav {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   #case-studies-wrap {
-    height: 1200px;
+    height: 1800px;
     width: 100%;
     position: relative; }
 
@@ -329,7 +329,7 @@ li .slide-nav {
   #case-text {
     color: white;
     position: absolute;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 25px; }
 
   .mobileHeight {

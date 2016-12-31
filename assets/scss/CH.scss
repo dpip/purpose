@@ -199,6 +199,27 @@ $note-blue: rgb(0, 80, 141);
       }
 }
 
+#blue-buffer-2-mobile {
+  background-color: $note-blue;
+  margin-top: 400px;
+  display: none;
+}
+#mobile-iteration-2-image-1 {
+  display: none;
+  margin-top: 500px;
+}
+.mobile-container-2 {
+  margin-top: 50px;
+  display: none;
+}
+.ch-final-iteration-block {
+  margin-top: 0px;
+}
+.ch-final-iteration {
+  height: 0px;
+  width: 0%;
+}
+
 @media only screen
    and (min-device-width: 375px)
    and (max-device-width: 667px)
@@ -207,9 +228,9 @@ $note-blue: rgb(0, 80, 141);
 
      #CH-mac {
        height: 800px;
-       width: 1000px;
-       margin-top: -80px;
-       left: 600px;
+       width: 900px;
+       margin-top: 0px;
+       left: 4%;
        position: absolute;
        // z-index: -50;
 
@@ -217,34 +238,51 @@ $note-blue: rgb(0, 80, 141);
 
      #CH-view {
        height: 494px;
-       width: 756px;
-       margin-top: 64px;
-       left: 722px;
+       width: 686px;
+       margin-top: 144px;
+       left: 15%;
        // margin-left: 292px;
        position: absolute;
      }
      #CH-intro-wrap {
-       height: 600px;
+       height: 700px;
      }
      #CH-intro {
        color: black;
-       font-size: 34px;
-       width: 500px;
-       margin-top: 80px;
-       margin-left: 80px;
+       font-size: 50px;
+       width: 90%;
+       margin-top: 800px;
+       margin-left: 6%;
+     }
+     #CH-services {
+       background-color: $green-arrow;
+       height: 1400px;
+      //  margin-bottom: 1000px;
+     }
+     #ch-sitemap {
+       margin-top: 200px;
      }
      #ch-sitemap-text-title {
-      font-size: 40px;
+      font-size: 50px;
       width: 80%;
       line-height: 40px !important;
+      // margin-left: -8%;
      }
      #ch-sitemap-text {
-      font-size: 40px;
+      font-size: 50px;
       width: 80%;
+      margin-left: 9%;
+      margin-top: 20px;
+     }
+     #CH-assessment-results-wrap {
+       height: 600px;
+       width: 100%;
+       margin-top: 1300px;
      }
      #ch-assessment-results-screen {
        background-color: white;
        height: 100px;
+       display: none;
      }
      .ch-iteration-container {
        height: 150px;
@@ -260,49 +298,59 @@ $note-blue: rgb(0, 80, 141);
            position: absolute;
          }
      }
-
+     #ch-second-iteration {
+       height: 820px;
+     }
      #ch-first-iteration-title {
-       margin-left: 40%;
+       margin-left: 35%;
+       font-size: 50px;
      }
      #ch-second-iteration-title {
-       top: 80px;
-       margin-left: 37.5%;
+       top: 640px;
+       margin-left: 37%;
      }
-     #ch-second-iteration {
-       height: 220px;
+     #ch-second-iteration-text {
+       margin-top: 600px;
+
      }
      #second-iteration-body {
        margin-top: 120px;
      }
      .ch-iteration-image-wrap {
-       margin-left: 250px;
+       margin-left: 200px;
+       width: 100%;
        .ch-iteration-image-container {
-         width: 420px;
-         height: 320px;
-         display: inline-block;
-         float: left;
-         margin-top: 240px;
+         width: 1000px;
+         height: 600px;
+         display: block;
+         float: none;
+         margin-top: 640px;
          position: absolute;
          z-index: 100;
          // box-shadow: 3px 3px 5px 6px #ccc;
            img {
              height: inherit;
-             width: inherit;
+             width: 100%;
            }
        }
-       #ch-iteration-image-container-2 {
-         margin-left: 460px;
+       #ch-iteration-image-container-1 {
+        //  margin-bottom: -400px;
        }
+       #ch-iteration-image-container-2 {
+         margin-left: 0px;
+         margin-top: 1400px;
+       }
+
      }
      #ch-iteration-image-wrap-1 {
-
+        // margin-top: 400px;
      }
      #ch-iteration-image-wrap-2 {
 
      }
      .ch-iteration-image-container-2 {
-       width: 420px;
-       height: 320px;
+       width: 100%;
+       height: 600px;
        display: inline-block;
        float: left;
        margin-top: -100px;
@@ -311,24 +359,25 @@ $note-blue: rgb(0, 80, 141);
        // box-shadow: 3px 3px 5px 6px #ccc;
          img {
            height: inherit;
-           width: inherit;
+           width: 100%;
          }
        }
 
      .ch-iteration-text-body {
          position: absolute;
          color: #04548c;
-         margin-top: 40px;
-         width: 660px;
+         margin-top: 270px;
+         width: 85%;
+         margin-left: -8%;
 
          .ch-iteration-challenge {
-           font-size: 25px;
+           font-size: 45px;
            font-weight: 600;
            line-height: 22px;
          }
          .ch-iteration-text {
-           font-size: 22px;
-           margin-top: 20px;
+           font-size: 40px;
+           margin-top: 60px;
 
          }
      }
@@ -336,7 +385,7 @@ $note-blue: rgb(0, 80, 141);
      .ch-b4 {
        margin-top: 550px;
        margin-left: -200px;
-       height: 340px;
+       height: 1240px;
        background-color: rgb(233, 233, 233);
 
      }
@@ -347,20 +396,34 @@ $note-blue: rgb(0, 80, 141);
        background-color: rgb(233, 233, 233);
      }
      #ch-final {
-       font-size: 25px;
-       margin-top: 60px;
+       font-size: 50px;
+       margin-top: 0px;
+       padding-top: 50px;
        margin-left: 100px;
      }
      #blue-buffer {
        background-color: blue;
      }
+     #blue-buffer-2-mobile {
+       background-color: $note-blue;
+       margin-top: 1100px;
+       display: block;
+     }
+     #mobile-iteration-2-image-1 {
+       display: block;
+       margin-top: 500px;
+     }
+     .mobile-container-2 {
+       margin-top: 0px;
+       display: block;
+     }
      #CH-assessment-results-block-one {
        background-color: white;
          img {
-           height: 360px;
-           width: 87%;
-           margin-top: 20px;
-           margin-left: 30px;
+           height: 600px;
+           width: 100%;
+           margin-top: 0px;
+           margin-left: 0px;
          }
      }
      #CH-assessment-results-block-two {
@@ -404,8 +467,28 @@ $note-blue: rgb(0, 80, 141);
      }
 
 
+    .ch-final-iteration-block {
+      margin-top: -760px;
+    }
+    #ch-assessment-results-block-two-after {
+      .ch-final-iteration{
+        img {
 
+        height: 600px;
+        width: 100%;
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
 
+         }
+       }
+     }
 
+     #ch-results-footer {
+       margin-top: 900px;
+     }
 
-   }
+    #footer-ch-mobile {
+      margin-top: -250px;
+    }
+ }

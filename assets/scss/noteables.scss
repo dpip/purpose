@@ -262,3 +262,282 @@ $note-blue: rgb(0, 80, 141);
 #noteables-results {
   margin-top: 200px;
 }
+
+
+// /* Portrait and Landscape */
+ @media only screen
+   and (min-device-width: 375px)
+   and (max-device-width: 667px)
+   and (-webkit-min-device-pixel-ratio: 2) {
+
+     .Noteables-Container {
+       width: 100%;
+       height: 300px;
+     }
+     .note-buffer {
+       width: 100%;
+       height: 150px;
+     }
+     #green-buffer {
+       background-color: $green-arrow;
+     }
+     #blue-buffer {
+       background-color: $note-blue;
+     }
+
+
+
+     #note-intro {
+       margin-top: 100px;
+       background-color: $note-blue;
+       color: white;
+       height: 720px;
+       #note-intro-text-1 {
+         margin-top: 20px;
+         width: 100%;
+         text-align: center;
+         font-size: 55px;
+
+       }
+       #note-intro-text-2 {
+         width: 55%;
+         margin-top: 1em;
+         margin-left: 22.5%;
+         margin-right: 32.5%;
+         text-align: center;
+         font-size: 50px;
+       }
+     }
+     #note-hero-phone {
+       height: 1000px;
+       width: 600px;
+       position: absolute;
+       right: 190px;
+       margin-top: -350px;
+         img {
+           height: inherit;
+           width: inherit;
+         }
+     }
+     #note-hero-view {
+       position: absolute;
+       z-index: 20;
+       height: 690px;
+       width: 445px;
+       right: 270px;
+       margin-top: -195px;
+       img {
+         height: inherit;
+         width: inherit;
+       }
+     }
+     #note-exp {
+       margin-top: 700px;
+       .note-exp-text {
+         font-size: 45px;
+         width: 85%;
+         margin-left: 8%;
+         margin-right: 50%;
+         margin-top: 2em;
+       }
+     }
+     #note-services {
+       margin-top: 300px;
+       background-color: $green-arrow;
+       height: 1200px;
+
+       .note-services-blocks {
+         color: white;
+         display: block;
+       }
+       #note-services-title {
+         font-size: 50px;
+         margin-top: 650px;
+       }
+       #note-services-rows {
+         position: absolute;
+         margin-top: 25px;
+         float: left;
+         margin-left: 8%;
+       }
+       ul {
+         margin-top: 10px;
+         margin-right: 20%;
+         margin-left: 20px;
+         font-size: 45px;
+         color: white;
+         list-style: none;
+           li {
+             margin-top: 30px;
+           }
+
+       }
+       #note-services-img {
+         height: 600px;
+         width: 100%;
+         float: left;
+         margin-top: 0px;
+         margin-left: 0px;
+           img {
+             height: inherit;
+             width: inherit;
+           }
+       }
+
+   }
+
+   .before-after-container {
+     width: 80%;
+     margin-left: 8%;
+
+   }
+   .before-after-text {
+     font-weight: 600;
+     color: $note-blue;
+     font-size: 50px;
+     padding-top: 40px;
+
+   }
+   .after-text {
+     margin-top: 500px;
+   }
+
+   .noteables-casestudy-steps-text {
+     color: $note-blue;
+     font-size: 45px;
+     margin-top: 20px;
+
+   }
+
+
+   .note-3-image-continer-before {
+     margin-left: 110px;
+     margin-top: 60px;
+   }
+   .note-3-image-continer-after {
+     margin-left: 310px;
+     margin-top: 100px;
+     z-index: 60;
+   }
+
+   .note-2-image-container {
+     margin-left: 420px;
+   }
+
+   #note-onboarding-title {
+     font-size: 50px;
+     text-align: center;
+     color: $green-arrow;
+     background: rgb(242, 242, 242);
+     overflow: hidden;
+       div {
+         margin-top: 40px;
+       }
+   }
+   #note-after-titles {
+     font-size: 50px;
+     text-align: center;
+     color: $green-arrow;
+     background: rgb(242, 242, 242);
+     height: 300px;
+     // overflow: hidden;
+       div {
+         padding-top: 180px;
+       }
+   }
+
+   #note-onboarding-container {
+     // float: left;
+     .note-onboarding-image-container {
+       width: 200px;
+       display: inline-block;
+       float: left;
+       position: relative;
+       margin-top: 160px;
+       margin: 20px;
+
+         .note-onboarding-image {
+           height: 900px;
+           width: 500px;
+           margin-top: -20px;
+           margin-left: 100px;
+
+             img {
+               height: inherit;
+               width: inherit;
+             }
+         }
+     }
+   }
+   .b4 {
+     height: 800px;
+   }
+   .b4-memory {
+     height: 1000px;
+   }
+   #image-before-2 {
+     margin-top: -320px;
+   }
+   #image-after-2 {
+     margin-top: 50px;
+   }
+   .after {
+     height: 1000px;
+     // background-color: rgb(233, 233, 233);
+     .note-onboarding-image-container-after {
+       width: 200px;
+       display: inline-block;
+       float: left;
+       position: relative;
+       margin-top: 340px;
+       margin: 20px;
+         .note-onboarding-image {
+           height: 900px;
+           width: 500px;
+           margin-left: -90px;
+
+             img {
+               height: inherit;
+               width: inherit;
+             }
+         }
+     }
+   }
+   .note-onboarding-image-container2 {
+     width: 200px;
+     display: inline-block;
+     float: left;
+     position: relative;
+     margin-top: 160px;
+     margin: 20px;
+     margin-left: -170px;
+
+       .note-onboarding-image2 {
+         height: 900px;
+         width: 500px;
+
+           img {
+             height: inherit;
+             width: inherit;
+           }
+       }
+   }
+
+   #note-onboarding-container-last {
+     background-color: white;
+     height: 700px;
+   }
+   #noteables-results {
+     margin-top: 500px;
+   }
+
+
+  #img-no {
+    display: none;
+  }
+  .note-buffer-primary {
+    height: 600px;
+  }
+
+
+ }

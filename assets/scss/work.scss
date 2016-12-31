@@ -258,13 +258,15 @@ $workshop-blue: rbg(239, 242, 246);
    and (-webkit-min-device-pixel-ratio: 2) {
 
      #case-studies-wrap {
-       height: 1800px;
+       height: 1700px;
        width: 100%;
        position: relative;
-          // img {
-          //   height: 700px;
-          //   width: 1000px
-          // }
+          img {
+            height: 700px;
+            width: 800px;
+            margin-left: 90px;
+            margin-top: 200px;
+          }
          .case-studies-title {
 
          }
@@ -333,7 +335,7 @@ $workshop-blue: rbg(239, 242, 246);
 
        .clients-container {
          font-family: $home-intro-font;
-         height: 300px;
+         height: 281px;
          width: 100%;
          background-color: rgb(229, 229, 229);
          color: black;
@@ -342,13 +344,13 @@ $workshop-blue: rbg(239, 242, 246);
              width: 100%;
              text-align: center;
              background-color: rgb(229, 229, 229);
-             font-size: 45px;
+             font-size: 50px;
                #title-text {
                  position: absolute;
                  margin-top: 30px;
-                 margin-left: 9%;
-                 width: 220px;
-                 border-bottom: 1px solid rgb(128, 128, 128);
+                 margin-left: 6%;
+                 width: 320px;
+                //  border-bottom: 1px solid rgb(128, 128, 128);
                }
            }
            .clients-icon-wrap {
@@ -386,7 +388,7 @@ $workshop-blue: rbg(239, 242, 246);
         color: rgb(70, 132, 179);
         font-size: 55px;
         font-family: $home-intro-font;
-         margin-top: 100px;
+         margin-top: 200px;
          margin-left: 0px;
       }
       #carets {
@@ -398,10 +400,10 @@ $workshop-blue: rbg(239, 242, 246);
           }
       }
       .navDotWrapper {
-        top: 390px;
+        top: 680px;
         position: absolute;
-        margin-left: 235px;
-        font-size: 30px;
+        margin-left: 88px;
+        font-size: 50px;
       }
       .active i {
       color: rgb(4, 84, 140);

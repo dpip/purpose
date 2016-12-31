@@ -190,9 +190,14 @@ li .slide-nav {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   #case-studies-wrap {
-    height: 1800px;
+    height: 1700px;
     width: 100%;
     position: relative; }
+    #case-studies-wrap img {
+      height: 700px;
+      width: 800px;
+      margin-left: 90px;
+      margin-top: 200px; }
 
   #case-study-border-flag {
     display: none;
@@ -242,7 +247,7 @@ li .slide-nav {
 
   .clients-container {
     font-family: "Slabo 27px", serif;
-    height: 300px;
+    height: 281px;
     width: 100%;
     background-color: #e5e5e5;
     color: black; }
@@ -251,13 +256,12 @@ li .slide-nav {
       width: 100%;
       text-align: center;
       background-color: #e5e5e5;
-      font-size: 45px; }
+      font-size: 50px; }
       .clients-container .clients-title #title-text {
         position: absolute;
         margin-top: 30px;
-        margin-left: 9%;
-        width: 220px;
-        border-bottom: 1px solid gray; }
+        margin-left: 6%;
+        width: 320px; }
     .clients-container .clients-icon-wrap {
       height: 200px;
       width: 100%;
@@ -282,7 +286,7 @@ li .slide-nav {
     color: #4684b3;
     font-size: 55px;
     font-family: "Slabo 27px", serif;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 0px; }
 
   #carets {
@@ -293,10 +297,10 @@ li .slide-nav {
       margin-top: 28px; }
 
   .navDotWrapper {
-    top: 390px;
+    top: 680px;
     position: absolute;
-    margin-left: 235px;
-    font-size: 30px; }
+    margin-left: 88px;
+    font-size: 50px; }
 
   .active i {
     color: #04548c;

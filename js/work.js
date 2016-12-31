@@ -2,7 +2,7 @@ purpose.controller('WorkController', [ '$http', '$location', '$scope', function(
 
  $scope.slides = [
     {id: 1,
-      image: 'assets/images/work/mac.png',
+      image: 'assets/images/devices/ccl laptop.png',
       imageTwo: 'assets/images/work/CCL cover image.png',
         title: "CCL Compass",
           bullietOne: "Product Definition Workshop",
@@ -11,7 +11,7 @@ purpose.controller('WorkController', [ '$http', '$location', '$scope', function(
                 href: "#/CCL",
                   dotOne: "fa fa-circle"},
     {id: 2,
-      image: 'assets/images/work/mac.png',
+      image: 'assets/images/devices/contract hound laptop.png',
       imageTwo: 'assets/images/work/Contract Hound cover image.png',
         title: "Contract Hound",
           bullietOne: "Contract Managment App",
@@ -20,7 +20,7 @@ purpose.controller('WorkController', [ '$http', '$location', '$scope', function(
                 href: "#/CH",
                   dotTwo: "fa fa-circle"},
     {id: 3,
-      image: 'assets/images/work/iphone6-template-large.png',
+      image: 'assets/images/devices/noteables phone.png',
       imageTwo: 'assets/images/work/Noteables cover image.png',
         title: "Notables",
           bullietOne: "Negativity Free Social Media",
@@ -56,23 +56,23 @@ purpose.controller('WorkController', [ '$http', '$location', '$scope', function(
       $scope.set_HeightOne = function (slide) {
          if (slide.id > 2) {
              return {
-                 height: "400px",
-                 width: "240px",
+                 height: "700px",
+                 width: "400px",
                  top: "0px",
-                 left: "130px"
+                 left: "198px"
              }
          }
        };
-       $scope.set_HeightTwo = function (slide) {
-          if (slide.id > 2) {
-              return {
-                  height: "276px",
-                  width: "176.5px",
-                  left: "100.5px",
-                  top: "161px",
-              }
-          }
-        };
+      //  $scope.set_HeightTwo = function (slide) {
+      //     if (slide.id > 2) {
+      //         return {
+      //             // height: "276px",
+      //             // width: "176.5px",
+      //             left: "100.5px",
+      //             top: "161px",
+      //         }
+      //     }
+      //   };
 
         $scope.colorDot = function(index){
         $scope.dot = index;

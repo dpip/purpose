@@ -76,6 +76,7 @@ a {
 
       }
       .container-right {
+        // display: none;
         position: absolute;
         top: 0;
         right: 0;
@@ -84,24 +85,23 @@ a {
         height: 40px;
         width: 100px;
         box-sizing: border-box;
-        display: none;
         text-align: center;
         vertical-align: top;
         font-family: $menu-font;
-        // color: white;
-        // border: 1px solid $menu-font-color;
-        // background-color: $workshop-blue;
         font-size: 16px;
         border-radius: 4px;
         border: 2px solid $green-arrow;
-        // color: $green-arrow;
+        color: $green-arrow;
+        overflow-x: visible;
+        overflow-y: visible;
+        // opacity: 0;
 
-        // .container-text {
-        //   padding-top: .5em;
-        //   cursor: pointer;
-        //   color: gray;
-        //
-        // }
+        .container-text {
+          padding-top: .5em;
+          cursor: pointer;
+          color: $green-arrow;
+
+        }
       }
   }
 }
@@ -125,6 +125,11 @@ font-weight: bolder;
 
 #sidebar {
   display: none;
+  font-size: 0;
+}
+#mobile-container {
+  display: none;
+  font-size: 0;
 }
 
 
@@ -133,45 +138,40 @@ font-weight: bolder;
 #home-intro-text-wrap {
   height: 670px;
   width: 100%;
-  margin-right: 10%;
+  margin-left: 250px;
     .home-intro-text-one {
       font-size: 48px;
-      margin-left: 18%;
+      // margin-left: 18%;
       margin-top: 200px;
       font-family: "le-monde-livre-std", "Georgia", serif;
-      width: 62%;
+      width: 700px;
     }
 
     .home-intro-text-two {
       font-size: 22px;
-      // margin-left: 132px;
-      margin-left: 18%;
       margin-top: 50px;
-      // font-family: $home-intro-font;
       font-family: "le-monde-livre-std", "Georgia", serif;
-      width: 72%;
+      width: 800px;
     }
 
     .home-intro-text-three {
       font-size: 22px;
       // margin-left: 132px;
-      margin-left: 18%;
+      // margin-left: 18%;
       margin-top: 40px;
       // font-family: $home-intro-font;
       font-family: "le-monde-livre-std", "Georgia", serif;
-      width: 65%;
+      width: 800px;
     }
     #lets-talk-intro {
+      margin-left: 0px;
       margin-top: 3em;
-      // margin-left: 132px;
-      margin-left: 18%;
       height: 40px;
       width: 115px;
       box-sizing: border-box;
       display: inline-block;
       text-align: center;
       vertical-align: top;
-      // font-family: $menu-font;
       font-family: "le-monde-livre-std", "Georgia", serif;
       color: black;
       border: 2px solid black;
@@ -180,7 +180,7 @@ font-weight: bolder;
       text-align: center;
       .container-text-intro {
         color: black;
-        padding-top: .1em;
+        padding-top: .3em;
         cursor: pointer;
 
       }
@@ -193,7 +193,7 @@ font-weight: bolder;
 #arrow-one {
   position: absolute;
   top: 640px;
-  left: 15%;
+  left: 240px;
   z-index: 50;
   font-size: 4em;
   color: $arrow-foot;
@@ -227,7 +227,7 @@ font-weight: bolder;
       .why-container {
         height: 500px;
         width: 70%;
-        margin-left: 15%;
+        margin-left: 250px;
         margin-top: 120px;
 
           .why-we-deliver {
@@ -301,7 +301,7 @@ font-weight: bolder;
     .our-writing-container {
       height: 400px;
       width: 70%;
-      margin-left: 15%;
+      margin-left: 250px;
       margin-top: 100px;
       // border: 1px solid red;
 
@@ -381,7 +381,7 @@ font-weight: bolder;
 #arrow-two {
   position: absolute;
   top: 1965px;
-  left: 15%;
+  left: 240px;
   z-index: 50;
   font-size: 4em;
   color: $arrow-foot;
@@ -404,7 +404,7 @@ font-weight: bolder;
 #arrow-three {
   position: absolute;
   top: 3200px;
-  left: 15%;
+  left: 240px;
   z-index: 50;
   font-size: 4em;
   color: $green-arrow;
@@ -424,7 +424,7 @@ font-weight: bolder;
   .tell-us-container {
     height: 300px;
     width: 70%;
-    margin-left: 15%;
+    margin-left: 250px;
     margin-top: 150px;
     // border: 1px solid red;
 
@@ -531,6 +531,7 @@ font-weight: bolder;
                 font-size: 18px;
                 color: $green-arrow !important;
                 text-align: center;
+                cursor: pointer;
                   input {
                     background-color: white;
                     border: 2px solid $green-arrow;
@@ -540,12 +541,14 @@ font-weight: bolder;
                     outline:none;
                     color: $green-arrow !important;
                     font-size: 18px;
+                    cursor: pointer;
 
 
                   }
 
                   .tell-us-submit-text {
                     margin-top: 3px;
+                    cursor: pointer;
                   }
               }
 
@@ -764,7 +767,7 @@ font-weight: bolder;
             height: 90px;
             width: 200px;
             box-sizing: border-box;
-            display: block;
+            // display: block;
             text-align: center;
             vertical-align: top;
             font-family: $menu-font;

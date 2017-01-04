@@ -78,6 +78,7 @@ $("#image").click(function(){
 
   mobile.css("display", mobile.css("display") === 'block' ? '' : 'block');
 
+  // slide animation open but wouldnt toggle closed on mobile
   // var w = $('#sidebar').width();
   // var pos = $('#sidebar').offset().left;
   // if(pos == 0){
@@ -96,18 +97,6 @@ $(".container-text").click(function(){
   mobile.css("display", mobile.css("display") === 'none' ? '' : 'none');
 
 
-});
-
-
-
-
-
-
-//
-$('#lets-talk').click(function () {
-    window.location.href = 'http://localhost:3000/#/home';
-    $('body').animate({scrollTop:$(document).height() - 400}, 'slow');
-    return false;
 });
 
 // variable to hold request

@@ -9,6 +9,10 @@ $green-arrow: rgb(1, 168, 132);
 $workshop-blue: rbg(239, 242, 246);
 
 
+
+#mobileSlide {
+  display: none;
+}
 #case-studies-wrap {
   height: 600px;
   width: 100%;
@@ -120,7 +124,7 @@ $workshop-blue: rbg(239, 242, 246);
    position: absolute;
    top: 172px;
    margin-left: 250.5px;
-   z-index: 140;
+   z-index: 0;
  }
  #slideTitle {
    color: rgb(70, 132, 179);
@@ -141,6 +145,8 @@ $workshop-blue: rbg(239, 242, 246);
    margin-top: 0em;
   //  margin-left: 740px;
   margin-left: 540px;
+  position: absolute;
+  z-index: 100;
   // margin-left: 40%;
  }
  .active i {
@@ -177,7 +183,7 @@ $workshop-blue: rbg(239, 242, 246);
  #case-text {
    color: white;
    position: absolute;
-   margin-top: 15px;
+   margin-top: 20px;
    margin-left: 45px;
  }
  .mobileHeight {
@@ -256,7 +262,12 @@ $workshop-blue: rbg(239, 242, 246);
    and (min-device-width: 375px)
    and (max-device-width: 667px)
    and (-webkit-min-device-pixel-ratio: 2) {
-
+      #mobileSlide {
+        display: block;
+      }
+      #desktopSlide {
+        display: none;
+      }
      #case-studies-wrap {
        height: 1700px;
        width: 100%;
@@ -266,6 +277,10 @@ $workshop-blue: rbg(239, 242, 246);
             width: 800px;
             margin-left: 90px;
             margin-top: 200px;
+            z-index: 0;
+            border: 0px !important;
+            outline: 0 !important;
+
           }
          .case-studies-title {
 
@@ -375,6 +390,7 @@ $workshop-blue: rbg(239, 242, 246);
         margin-top: 100px;
         margin-left: 240px;
         z-index: 130;
+        border: none;
        //  top: 100px;
       }
       #view {
@@ -382,6 +398,11 @@ $workshop-blue: rbg(239, 242, 246);
         top: 172px;
         margin-left: 300.5px;
         z-index: 140;
+          img {
+            border: 0px !important;
+            outline: 0 !important;
+          }
+
       }
       #slideTitle {
         text-align: center;

@@ -40,10 +40,12 @@ $note-blue: rgb(0, 80, 141);
   width: 500px;
   margin-top: 150px;
   margin-left: 140px;
+  line-height: 1.5em
 }
 #ch-assessment-results-screen {
   background-color: white;
   height: 100px;
+  margin-top: -100px;
 }
 .ch-iteration-container {
   height: 150px;
@@ -98,6 +100,46 @@ $note-blue: rgb(0, 80, 141);
 #ch-iteration-image-wrap-2 {
 
 }
+#CH-services {
+  background-color: $green-arrow;
+  // height: 1400px;
+ //  margin-bottom: 1000px;
+}
+#ch-services-title {
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+}
+.ch-services-bulliets {
+    color: white;
+    font-size: 20px;
+    margin-top: 1em;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    font-family: "soleil", 'Oxygen', sans-serif;
+}
+
+#ch-services-image img {
+    width: 500px;
+    height: 360px;
+    margin-left: 140px;
+    font-size: 0;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ch-assessment-results-screen-desktop {
+  margin-top: 100px;
+}
+#ch-assessment-results-screen {
+
+  background-color: rgb(242, 242, 242);
+}
+
+
 .ch-iteration-image-container-2 {
   width: 420px;
   height: 320px;
@@ -195,7 +237,8 @@ $note-blue: rgb(0, 80, 141);
         height: 300px;
         width: 500px;
         margin-top: 50px;
-        margin-left: 12%;
+        margin-left: 100px;
+        position: absolute;
       }
 }
 
@@ -218,6 +261,9 @@ $note-blue: rgb(0, 80, 141);
 .ch-final-iteration {
   height: 0px;
   width: 0%;
+}
+#final-iteration-text {
+  margin-top: 0px;
 }
 
 @media only screen
@@ -257,6 +303,8 @@ $note-blue: rgb(0, 80, 141);
      #CH-services {
        background-color: $green-arrow;
        height: 1400px;
+       margin-top: 250px;
+      //  margin-top: 1000px;
       //  margin-bottom: 1000px;
      }
      #ch-sitemap {
@@ -368,7 +416,7 @@ $note-blue: rgb(0, 80, 141);
          color: #04548c;
          margin-top: 270px;
          width: 85%;
-         margin-left: -8%;
+         margin-left: 200px;
 
          .ch-iteration-challenge {
            font-size: 45px;
@@ -490,5 +538,8 @@ $note-blue: rgb(0, 80, 141);
 
     #footer-ch-mobile {
       margin-top: -250px;
+    }
+    .mobile-margin-ch {
+      margin-top: -1100px;
     }
  }

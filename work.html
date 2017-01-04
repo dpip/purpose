@@ -1,6 +1,8 @@
 
 <div id = "case-studies-wrap" ng-controller = "WorkController">
-  <img ng-repeat = "slide in slides" class = "slide" id = "slide" ng-show="" ng-hide="!isCurrentSlideIndex($index)" ng-src = "{{slide.image}}" width = "500px" height = "400px" ng-style="set_HeightOne(slide)"></img>
+  <a name = "#view-more"></a>
+  <div id = "desktopSlide"><img ng-repeat = "slide in slides" class = "slide" id = "slide" ng-show="" ng-hide="!isCurrentSlideIndex($index)" ng-src = "{{slide.image}}" width = "500px" height = "400px" ng-style="set_HeightOne(slide)"></img></div>
+  <div id = "mobileSlide"><img ng-repeat = "mobileSlide in mobileSlides" class = "slide" id = "slide" ng-show="" ng-hide="!isCurrentSlideIndex($index)" ng-src = "{{mobileSlide.image}}" width = "500px" height = "400px" ng-style="set_HeightTwo(mobileSlide)"></img></div>
     <div ng-repeat = "slide in slides" class = "slide" id = "slideTitle" ng-hide="!isCurrentSlideIndex($index)">{{slide.title}}</div>
       <ul ng-repeat = "slide in slides" id = "carets" ng-hide="!isCurrentSlideIndex($index)">
         <li>
@@ -27,7 +29,8 @@
 
 <!-- Below - I was pulling in two seperate images and layering them dynamically... just incase you need it -->
 
-  <!-- <img ng-repeat = "slide in slides" class = "slide" id = "view" ng-hide="!isCurrentSlideIndex($index)" ng-src = "{{slide.imageTwo}}" width = "378px" height = "246px" ng-style="set_HeightTwo(slide)"></img> -->
+  <!-- <div class = "mobile-img-3"><img ng-repeat = "slide in slides" class = "slide" id = "view" content = "" ng-hide="!isCurrentSlideIndex($index)" ng-src = "{{slide.phoneImage}}" width = "378px" height = "246px" ng-style="set_HeightTwo(slide)"></img></div> -->
+
 
   <!-- potential navigation arrows ready to go :) -->
 

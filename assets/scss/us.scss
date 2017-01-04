@@ -13,37 +13,39 @@ $workshop-blue: rbg(239, 242, 246);
 
 .vision-wrapper {
   width: 90%;
-  height: 450px;
-  margin-left: 22%;
+  height: 500px;
+  margin-left: 274px;
   margin-top: 100px;
     .vision-row {
+      margin-top: 50px;
       width: 360px;
       height: 100%;
       display: inline-block;
-      font-size: 22px;
-      // font-family: $home-intro-font;
+      font-size: 20px;
+      line-height: 1.5em;
       font-family: "le-monde-livre-std", "Georgia", serif;
     }
     #v-row-one {
       float: left;
       margin-right: 50px;
     }
+    #v-row-two {
+    }
 }
 #lets-talk-intro {
-  margin-top: -168px;
+  margin-top: -246px;
   margin-left: 410px;
-  height: 50px;
-  width: 150px;
+  height: 40px;
+  width: 120px;
   box-sizing: border-box;
   display: inline-block;
   text-align: center;
   vertical-align: top;
-  // font-family: $menu-font;
   font-family: "le-monde-livre-std", "Georgia", serif;
   font-style: italic;
   color: black;
-  border: 1px solid $menu-font-color;
-  font-size: 24px;
+  border: 2px solid black;
+  font-size: 22px;
   border-radius: 1px;
   text-align: center;
   .container-text-intro {
@@ -55,7 +57,7 @@ $workshop-blue: rbg(239, 242, 246);
 }
 #arrow-six {
   position: absolute;
-  left: 15%;
+  left: 266px;
   z-index: 50;
   font-size: 4em;
   color: $arrow-foot;
@@ -79,7 +81,7 @@ $workshop-blue: rbg(239, 242, 246);
   background-color: #F2EDEA;
   position: absolute;
     .bio-row {
-      width: 32%;
+      width: 350px;
       height: 600px;
       display: inline-block;
       font-size: 16px;
@@ -130,8 +132,8 @@ $workshop-blue: rbg(239, 242, 246);
     }
     #b-row-one {
       float: left;
-      margin-left: 12%;
-      margin-right: 10%;
+      margin-left: 274px;
+      margin-right: 70px;
     }
 }
 

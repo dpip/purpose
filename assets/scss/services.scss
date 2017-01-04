@@ -12,14 +12,14 @@ $workshop-blue: rbg(239, 242, 246);
 .services-wrap {
   height: 400px;
   width: 800px;
-  margin-left: 20%;
+  margin-left: 250px;
   border-top: 1px solid $green-arrow;
   margin-right: 20%;
     .services-intro-text {
     margin-top: 150px;
     // font-family: $home-intro-font;
     font-family: "le-monde-livre-std", "Georgia", serif;
-    margin-left: 0px;
+    margin-left: 25px;
     margin-right: 60px;
     width: 800px;
     font-size: 2.2em;
@@ -98,8 +98,8 @@ $workshop-blue: rbg(239, 242, 246);
 
   #arrow-four {
     position: absolute;
-    top: 1620px;
-    left: 15%;
+    top: 1550px;
+    left: 270px;
     z-index: 50;
     font-size: 4em;
     color: $arrow-foot;
@@ -155,23 +155,24 @@ $workshop-blue: rbg(239, 242, 246);
     background-color: rgb(239, 242, 246);
     margin-top: -4px;
     font-family: $home-intro-font;
-    // padding-bottom: 400px;
-    // padding-bottom: 50px;
+
 
   #workshops-intro {
-    // margin-top: 50px;
-    height: 200px;
+    // height: 300px;
+    padding-top: 30px;
     width: 560px;
-    margin-left: 20%;
+    margin-left: 274px;
       .workshops-intros {
+        margin-top: 30px;
         height: calc(100% / 2);
         width: 100%;
         font-size: 16px;
+        // margin-left: 25px;
       }
       #workshops-title {
         color: $green-arrow;
-        font-size: 20px;
-        padding-top: 50px;
+        font-size: 25px;
+        font-weight: 300;
         font-family: "soleil", 'Oxygen', sans-serif;
       }
 
@@ -179,8 +180,8 @@ $workshop-blue: rbg(239, 242, 246);
   .workshops-container {
     height: 300px;
     width: 60%;
-    margin-top: 10px;
-    margin-left: 20%;
+    margin-top: 30px;
+    margin-left: 274px;
     background-color: $workshop-blue;
     .workshops-blocks {
       position: relative;

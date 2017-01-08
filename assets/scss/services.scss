@@ -247,7 +247,7 @@ $workshop-blue: rbg(239, 242, 246);
 #services-lets-talk {
 
   margin-bottom: 2em;
-  margin-left: 20%;
+  margin-left: 275px;
   margin-top: -2em;
   height: 40px;
   width: 115px;
@@ -262,7 +262,14 @@ $workshop-blue: rbg(239, 242, 246);
       font-style: italic;
     }
 }
+#services-lets-talk:hover {
+  border-color: $green-arrow;
+  color: $green-arrow;
 
+}
+#services-lets-talk div:hover {
+  color: $green-arrow;
+}
 
 @media only screen
   and (min-device-width: 375px)
@@ -424,6 +431,7 @@ $workshop-blue: rbg(239, 242, 246);
         z-index: 50;
         font-size: 4em;
         color: $arrow-foot;
+        display: none;
       }
     .idea-hero {
       img {

@@ -173,7 +173,7 @@
 
 #services-lets-talk {
   margin-bottom: 2em;
-  margin-left: 20%;
+  margin-left: 275px;
   margin-top: -2em;
   height: 40px;
   width: 115px;
@@ -186,6 +186,13 @@
   #services-lets-talk div {
     margin-top: 8px;
     font-style: italic; }
+
+#services-lets-talk:hover {
+  border-color: #01a884;
+  color: #01a884; }
+
+#services-lets-talk div:hover {
+  color: #01a884; }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .services-wrap {
@@ -310,7 +317,8 @@
     left: 10%;
     z-index: 50;
     font-size: 4em;
-    color: #302f33; }
+    color: #302f33;
+    display: none; }
 
   .idea-hero img {
     margin-top: 30px;

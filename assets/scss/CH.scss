@@ -542,4 +542,36 @@ $note-blue: rgb(0, 80, 141);
     .mobile-margin-ch {
       margin-top: -1100px;
     }
+
+    #ch-services-image img {
+        width: 1000px;
+        height: 600px;
+        margin-left: 0px;
+        font-size: 0;
+        float: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #ch-services-title {
+        color: white;
+        font-size: 55px;
+        margin-left: 100px;
+        letter-spacing: 2px;
+        margin-top: 80px;
+    }
+    .ch-services {
+      position: absolute;
+      margin-top: 50px;
+      width: 100%;
+      left: 40px;
+    }
+    .ch-services-bulliets {
+        color: white;
+        font-size: 50px;
+        margin-top: 1em;
+        letter-spacing: 2px;
+        margin-left: 100px;
+        font-family: "soleil", 'Oxygen', sans-serif;
+    }
+    
  }

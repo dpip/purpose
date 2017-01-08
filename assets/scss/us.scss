@@ -55,6 +55,15 @@ $workshop-blue: rbg(239, 242, 246);
 
   }
 }
+#lets-talk-intro:hover {
+  border-color: $green-arrow;
+
+}
+#lets-talk-intro .container-text-intro:hover {
+  color: $green-arrow;
+
+}
+
 #arrow-six {
   position: absolute;
   left: 266px;
@@ -173,7 +182,7 @@ $workshop-blue: rbg(239, 242, 246);
         }
     }
     #lets-talk-intro {
-      margin-top: 300px;
+      margin-top: 500px;
       margin-left: 0px;
       height: 120px;
       width: 300px;
@@ -203,13 +212,14 @@ $workshop-blue: rbg(239, 242, 246);
       font-size: 7em;
       color: $green-arrow;
       margin-top: -560px;
+      display: none;
     }
 
     #autumn-hero {
       height: 600px;
       width: 100%;
       position: absolute;
-      top: 1100px;
+      top: 1300px;
       img {
         height: 600px;
         width: 100%;
@@ -223,7 +233,7 @@ $workshop-blue: rbg(239, 242, 246);
       height:4400px;
       background-color: #F2EDEA;
       position: absolute;
-      margin-top: 500px;
+      margin-top: 800px;
         .bio-row {
           width: 80%;
           height: 1800px;
@@ -275,6 +285,7 @@ $workshop-blue: rbg(239, 242, 246);
         #b-row-two {
           margin-left: 10%;
           margin-right: 10%;
+
 
         }
         .James {

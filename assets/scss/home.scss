@@ -186,7 +186,12 @@ font-weight: bolder;
       }
   }
 }
-
+#home-intro-text-wrap #lets-talk-intro:hover {
+  border-color: $green-arrow;
+}
+#home-intro-text-wrap #lets-talk-intro .container-text-intro:hover {
+  color: $green-arrow;
+}
 
 // Water Tower Hero Image and arrow one -------->
 

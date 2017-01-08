@@ -122,6 +122,12 @@ a {
       padding-top: .3em;
       cursor: pointer; }
 
+#home-intro-text-wrap #lets-talk-intro:hover {
+  border-color: #01a884; }
+
+#home-intro-text-wrap #lets-talk-intro .container-text-intro:hover {
+  color: #01a884; }
+
 #arrow-one {
   position: absolute;
   top: 640px;

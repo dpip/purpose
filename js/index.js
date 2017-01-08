@@ -62,46 +62,74 @@ $(document).ready(function(){
     $(this).addClass("active");
   });
 
-  $(window).scroll(function() {
-    if ($(window).scrollTop() > 500) {
-        $('.container-right').fadeIn('slow');
-    }
-    else {
-      $('.container-right').fadeOut('fast');
 
+
+  var $form = $('#mc-embedded-subscribe-form');
+
+
+  $(function () {
+
+    $('#mc-embedded-subscribe').on('click', function(event) {
+      if(event) event.preventDefault();
+      register($form);
+    });
+  });
+
+  function register($form) {
+  $.ajax({
+    type: $form.attr('method'),
+    url: $form.attr('action'),
+    data: $form.serialize(),
+    cache       : false,
+    dataType    : 'json',
+    contentType: "application/json; charset=utf-8",
+    error       : function(err) { $('#notification_container').html('<span class="alert">Could not connect to server. Please try again later.</span>'); },
+    success     : function(data) {
+
+      if (data.result != "success") {
+        var message = data.msg.substring(4);
+        $('#notification_container').html('<span class="alert">'+message+'</span>');
+      }
+
+      else {
+        var message = data.msg;
+        $('#notification_container').html('<span class="success">'+message+'</span>');
+      }
     }
   });
+}
+
+
+  // $(window).scroll(function() {
+  //   if ($(window).scrollTop() > 500) {
+  //       $('.container-right').fadeIn('slow');
+  //   }
+  //   else {
+  //     $('.container-right').fadeOut('fast');
+  //
+  //   }
+  // });
 
   var mobile = $("#sidebar");
 
-$("#image").click(function(){
+  $("#image").click(function(){
 
-  mobile.css("display", mobile.css("display") === 'block' ? '' : 'block');
+    mobile.css("display", mobile.css("display") === 'block' ? '' : 'block');
 
-  // slide animation open but wouldnt toggle closed on mobile
-  // var w = $('#sidebar').width();
-  // var pos = $('#sidebar').offset().left;
-  // if(pos == 0){
-  // $("sidebar").addClass('sidebar-width-add');
-  // $("#sidebar").animate({"left": -w}, "slow");
-  // }
-  // else
-  // {
-  // $("#sidebar").animate({"left": "0"}, "slow");
-  // }
+  });
 
-});
+  $(".container-text").click(function(){
 
-$(".container-text").click(function(){
-
-  mobile.css("display", mobile.css("display") === 'none' ? '' : 'none');
+    mobile.css("display", mobile.css("display") === 'none' ? '' : 'none');
 
 
-});
+  });
 
 // variable to hold request
 var request;
 // bind to the submit event of our form
+
+
 
 
 });

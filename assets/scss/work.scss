@@ -197,13 +197,16 @@ $workshop-blue: rbg(239, 242, 246);
    position: absolute;
    top: 274px;
    color: rgb(70, 132, 179);
-   opacity: .3
+   opacity: .3;
+   display: none;
  }
  #arrow-right {
    right: 45px;
+   cursor: pointer;
  }
  #arrow-left {
    left: 45px;
+   cursor: pointer;
  }
 
  .logos {
@@ -254,6 +257,55 @@ $workshop-blue: rbg(239, 242, 246);
    margin-left: 10%;
 
  }
+
+// destop & laptop breakpoints
+ @media screen and (max-width: 1050px) {
+   #case-studies-wrap {
+     height: 900px;
+   }
+   #slideTitle {
+     margin-top: -440px;
+     margin-left: 0px;
+     width: 100%;
+     text-align: center;
+   }
+  #slide {
+    margin-top: 120px;
+    margin-left: 25.5%;
+  }
+  #carets {
+    margin-left: 32%;
+    margin-top: 380px;
+      li {
+        margin-top: 20px;
+      }
+  }
+  #case-study-border-flag {
+    display: none;
+  }
+  #view-case-study {
+    margin-left: 25px;
+  }
+  .navDotWrapper {
+    display: none;
+  }
+  .arrow {
+    display: block;
+  }
+  .quote-icon {
+    font-size: 40px;
+  }
+  .quotable-wrap .quote-icon {
+    font-size: 60px;
+  }
+  .quotable-wrap .quote-text-wrap {
+    font-size: 25px;
+    width: 70%;
+  }
+  .clients-container  {
+    display: none;
+  }
+}
 
 
 

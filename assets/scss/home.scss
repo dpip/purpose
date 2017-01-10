@@ -56,6 +56,7 @@ a {
         position: relative;
         margin-left: 73px;
 
+
           .container-text {
             padding-top: 1.8em;
             cursor: pointer;
@@ -690,6 +691,68 @@ font-weight: bolder;
       position: absolute;
       border: 1 solid blue;
     }
+}
+
+
+// Desktop & Laptop breakpoints
+
+@media screen and (max-width: 1050px) {
+  .top-menu-wrap #top-menu-containers-wrap .top-menu-containers .container {
+    margin-left: 22px;
+    width: 80px;
+
+  }
+  .top-menu-wrap #top-menu-containers-wrap .top-menu-containers .container-right {
+    margin-right: 1em;
+  }
+  #about-us {
+    width:105px;
+  }
+  #home-intro-text-wrap {
+    margin-left: 50px;
+  }
+  #home-intro-text-wrap .home-intro-text-two {
+    font-size: 20px;
+    width: 90%;
+  }
+  #home-intro-text-wrap .home-intro-text-three {
+    font-size: 20px;
+    width: 90%;
+  }
+  #arrow-one {
+    left: 42px;
+  }
+  .approach-wrapper .why-container {
+    margin-left: 50px;
+    width: 100%;
+    .delivery-reasons {
+      width: 220px;
+    }
+  }
+  #arrow-two {
+    left: 42px;
+  }
+  .publications-wrapper .our-writing-container {
+    margin-left: 50px;
+    width: 90%;
+  }
+  #arrow-three {
+    left: 42px;
+  }
+  .tell-us-wrapper .tell-us-container {
+    width: 90%;
+    margin-left: 50px;
+  }
+
+}
+
+@media screen and (max-width: 855px) {
+  #tower-hero img {
+    // height: 50%;
+  }
+  #chair-hero img {
+    // height: 50%;
+  }
 }
 
 

@@ -271,6 +271,47 @@ $workshop-blue: rbg(239, 242, 246);
   color: $green-arrow;
 }
 
+@media screen and (max-width: 1050px) {
+  .services-wrap {
+    margin-left: 50px;
+    width: 90%;
+  }
+  .services-wrap .services-intro-text {
+    font-size: 2em;
+    width: 100%;
+  }
+  #arrow-four {
+    left: 50px;
+  }
+  .workshops-wrap {
+    height: 1550px;
+  }
+  .workshops-wrap #workshops-intro {
+    margin-left: 50px;
+  }
+  .workshops-wrap .workshops-container {
+    margin-left: 50px;
+  }
+  .workshops-wrap .workshops-container .workshops-blocks {
+    width: 140%;
+    margin-left: 0px;
+    height: 250px;
+    margin-top: 20px;
+  }
+  .workshops-wrap .workshops-container #block-right {
+    float: left;
+  }
+  #footer-services {
+    margin-top: 100px;
+  }
+  #services-lets-talk {
+    margin-top: 500px;
+    margin-left: 50px;
+  }
+}
+
+
+
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)

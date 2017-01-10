@@ -464,6 +464,50 @@ a {
     position: absolute;
     border: 1 solid blue; }
 
+@media screen and (max-width: 1050px) {
+  .top-menu-wrap #top-menu-containers-wrap .top-menu-containers .container {
+    margin-left: 22px;
+    width: 80px; }
+
+  .top-menu-wrap #top-menu-containers-wrap .top-menu-containers .container-right {
+    margin-right: 1em; }
+
+  #about-us {
+    width: 105px; }
+
+  #home-intro-text-wrap {
+    margin-left: 50px; }
+
+  #home-intro-text-wrap .home-intro-text-two {
+    font-size: 20px;
+    width: 90%; }
+
+  #home-intro-text-wrap .home-intro-text-three {
+    font-size: 20px;
+    width: 90%; }
+
+  #arrow-one {
+    left: 42px; }
+
+  .approach-wrapper .why-container {
+    margin-left: 50px;
+    width: 100%; }
+    .approach-wrapper .why-container .delivery-reasons {
+      width: 220px; }
+
+  #arrow-two {
+    left: 42px; }
+
+  .publications-wrapper .our-writing-container {
+    margin-left: 50px;
+    width: 90%; }
+
+  #arrow-three {
+    left: 42px; }
+
+  .tell-us-wrapper .tell-us-container {
+    width: 90%;
+    margin-left: 50px; } }
 /* ----------- iPhone 6 ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {

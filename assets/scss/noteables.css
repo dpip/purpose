@@ -53,7 +53,8 @@
   width: 30%;
   margin-left: 20%;
   margin-right: 50%;
-  margin-top: 2em; }
+  margin-top: 2em;
+  color: #646464; }
 
 #note-services {
   background-color: #01a884;
@@ -416,6 +417,18 @@
     display: none; }
 
   .note-buffer-primary {
-    height: 600px; } }
+    height: 600px; }
+
+  #note-view-more {
+    font-size: 50px;
+    margin-top: 70px;
+    text-align: center;
+    color: black;
+    width: 320px;
+    height: 65px;
+    padding-top: 10px;
+    border: 2px solid black;
+    border-radius: 1em;
+    margin-left: 325px; } }
 
 /*# sourceMappingURL=noteables.css.map */

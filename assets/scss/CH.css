@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$Work-Blue".
-        on line 205 of ./assets/scss/CH.scss
+        on line 206 of ./assets/scss/CH.scss
 
-200:       margin-top: 20px;
-201:       margin-left: 30px;
-202:     }
-203: }
-204: #CH-assessment-results-block-two {
-205:   background-color: $Work-Blue;
-206:   float: right;
-207:   color: white;
-208:   font-size: 20px;
-209: 
-210: }
+201:       margin-top: 20px;
+202:       margin-left: 30px;
+203:     }
+204: }
+205: #CH-assessment-results-block-two {
+206:   background-color: $Work-Blue;
+207:   float: right;
+208:   color: white;
+209:   font-size: 20px;
+210: 
+211: }
 
 Backtrace:
-./assets/scss/CH.scss:205
+./assets/scss/CH.scss:206
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/script/tree/node.rb:50:in `perform'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -65,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$Work-Blue\".\A         on line 205 of ./assets/scss/CH.scss\A \A 200:       margin-top: 20px;\A 201:       margin-left: 30px;\A 202:     }\A 203: }\A 204: #CH-assessment-results-block-two {\A 205:   background-color: $Work-Blue;\A 206:   float: right;\A 207:   color: white;\A 208:   font-size: 20px;\A 209: \A 210: }"; }
+  content: "Error: Undefined variable: \"$Work-Blue\".\A         on line 206 of ./assets/scss/CH.scss\A \A 201:       margin-top: 20px;\A 202:       margin-left: 30px;\A 203:     }\A 204: }\A 205: #CH-assessment-results-block-two {\A 206:   background-color: $Work-Blue;\A 207:   float: right;\A 208:   color: white;\A 209:   font-size: 20px;\A 210: \A 211: }"; }

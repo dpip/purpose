@@ -106,6 +106,40 @@
 #footer-us {
   bottom: 0; }
 
+@media screen and (max-width: 1050px) {
+  .vision-wrapper {
+    margin-left: 50px; }
+
+  .vision-wrapper .vision-row {
+    height: 600px; }
+
+  .bio-wrapper #b-row-one {
+    margin-left: 50px; }
+
+  #arrow-six {
+    left: 45px;
+    margin-top: -20px;
+    font-size: 3em; } }
+@media screen and (max-width: 855px) {
+  .vision-wrapper {
+    height: 800px; }
+
+  .vision-wrapper #v-row-two {
+    margin-top: -800px; }
+
+  #lets-talk-intro {
+    margin-top: -350px;
+    margin-left: 0px; }
+
+  .bio-wrapper {
+    height: 1800px; }
+
+  .bio-wrapper #b-row-two {
+    margin-left: 50px;
+    margin-top: -50px; }
+
+  #autumn-hero {
+    height: 250px; } }
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .vision-wrapper {
     width: 100%;

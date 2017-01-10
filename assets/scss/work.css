@@ -149,13 +149,16 @@ li .slide-nav {
   position: absolute;
   top: 274px;
   color: #4684b3;
-  opacity: 0.3; }
+  opacity: .3;
+  display: none; }
 
 #arrow-right {
-  right: 45px; }
+  right: 45px;
+  cursor: pointer; }
 
 #arrow-left {
-  left: 45px; }
+  left: 45px;
+  cursor: pointer; }
 
 .logos {
   display: inline-block;
@@ -193,6 +196,50 @@ li .slide-nav {
   padding-top: 15px;
   margin-left: 10%; }
 
+@media screen and (max-width: 1050px) {
+  #case-studies-wrap {
+    height: 900px; }
+
+  #slideTitle {
+    margin-top: -440px;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center; }
+
+  #slide {
+    margin-top: 120px;
+    margin-left: 25.5%; }
+
+  #carets {
+    margin-left: 32%;
+    margin-top: 380px; }
+    #carets li {
+      margin-top: 20px; }
+
+  #case-study-border-flag {
+    display: none; }
+
+  #view-case-study {
+    margin-left: 25px; }
+
+  .navDotWrapper {
+    display: none; }
+
+  .arrow {
+    display: block; }
+
+  .quote-icon {
+    font-size: 40px; }
+
+  .quotable-wrap .quote-icon {
+    font-size: 60px; }
+
+  .quotable-wrap .quote-text-wrap {
+    font-size: 25px;
+    width: 70%; }
+
+  .clients-container {
+    display: none; } }
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   #mobileSlide {
     display: block; }
